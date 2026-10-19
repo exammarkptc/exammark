@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" role="img" aria-label="Quy trình soạn đề: nạp ngân hàng, nhặt câu, mã đề gốc, trộn đề, chấm hoặc xuất" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif">
+<rect width="1000" height="200" fill="#f8fafc" rx="14"/>
+<rect x="29" y="40" width="142" height="120" rx="14" fill="#fff" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="57" cy="40" r="17" fill="#2563eb"/><text x="57" y="46" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">1</text>
+<text x="100.0" y="88.0" text-anchor="middle" font-size="16.5" font-weight="700" fill="#0f172a">Nạp ngân hàng</text>
+<text x="100.0" y="112.0" text-anchor="middle" font-size="13.5" fill="#475569">Excel/CSV + hình</text>
+<text x="100.0" y="131.0" text-anchor="middle" font-size="13.5" fill="#475569">hoặc .zip</text>
+<line x1="174" y1="100" x2="175.0" y2="100.0" stroke="#64748b" stroke-width="2.5"/><polygon points="175.0,107.0 186,100 175.0,93.0" fill="#64748b"/>
+<rect x="189" y="40" width="142" height="120" rx="14" fill="#fff" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="217" cy="40" r="17" fill="#2563eb"/><text x="217" y="46" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">2</text>
+<text x="260.0" y="88.0" text-anchor="middle" font-size="16.5" font-weight="700" fill="#0f172a">Đọc &amp; kiểm tra</text>
+<text x="260.0" y="112.0" text-anchor="middle" font-size="13.5" fill="#475569">báo lỗi đúng dòng</text>
+<text x="260.0" y="131.0" text-anchor="middle" font-size="13.5" fill="#475569">bỏ câu trùng</text>
+<line x1="334" y1="100" x2="335.0" y2="100.0" stroke="#64748b" stroke-width="2.5"/><polygon points="335.0,107.0 346,100 335.0,93.0" fill="#64748b"/>
+<rect x="349" y="40" width="142" height="120" rx="14" fill="#fff" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="377" cy="40" r="17" fill="#2563eb"/><text x="377" y="46" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">3</text>
+<text x="420.0" y="88.0" text-anchor="middle" font-size="16.5" font-weight="700" fill="#0f172a">Nhặt câu</text>
+<text x="420.0" y="112.0" text-anchor="middle" font-size="13.5" fill="#475569">tay · ngẫu nhiên</text>
+<text x="420.0" y="131.0" text-anchor="middle" font-size="13.5" fill="#475569">· theo ma trận</text>
+<line x1="494" y1="100" x2="495.0" y2="100.0" stroke="#64748b" stroke-width="2.5"/><polygon points="495.0,107.0 506,100 495.0,93.0" fill="#64748b"/>
+<rect x="509" y="40" width="142" height="120" rx="14" fill="#fff" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="537" cy="40" r="17" fill="#2563eb"/><text x="537" y="46" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">4</text>
+<text x="580.0" y="88.0" text-anchor="middle" font-size="16.5" font-weight="700" fill="#0f172a">Mã đề gốc</text>
+<text x="580.0" y="112.0" text-anchor="middle" font-size="13.5" fill="#475569">đưa câu vào</text>
+<text x="580.0" y="131.0" text-anchor="middle" font-size="13.5" fill="#475569">mã đề đang xem</text>
+<line x1="654" y1="100" x2="655.0" y2="100.0" stroke="#64748b" stroke-width="2.5"/><polygon points="655.0,107.0 666,100 655.0,93.0" fill="#64748b"/>
+<rect x="669" y="40" width="142" height="120" rx="14" fill="#fff" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="697" cy="40" r="17" fill="#2563eb"/><text x="697" y="46" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">5</text>
+<text x="740.0" y="88.0" text-anchor="middle" font-size="16.5" font-weight="700" fill="#0f172a">Trộn đề</text>
+<text x="740.0" y="112.0" text-anchor="middle" font-size="13.5" fill="#475569">sinh mã đề mới</text>
+<text x="740.0" y="131.0" text-anchor="middle" font-size="13.5" fill="#475569">ghi đáp án mới</text>
+<line x1="814" y1="100" x2="815.0" y2="100.0" stroke="#64748b" stroke-width="2.5"/><polygon points="815.0,107.0 826,100 815.0,93.0" fill="#64748b"/>
+<rect x="829" y="40" width="142" height="120" rx="14" fill="#fff" stroke="#16a34a" stroke-width="2.5"/>
+<circle cx="857" cy="40" r="17" fill="#16a34a"/><text x="857" y="46" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">6</text>
+<text x="900.0" y="88.0" text-anchor="middle" font-size="16.5" font-weight="700" fill="#0f172a">Chấm / xuất</text>
+<text x="900.0" y="112.0" text-anchor="middle" font-size="13.5" fill="#475569">chấm bằng camera</text>
+<text x="900.0" y="131.0" text-anchor="middle" font-size="13.5" fill="#475569">hoặc Excel, LaTeX</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 410" role="img" aria-label="Vòng đời kỳ thi chung và trạng thái bài chấm của giáo viên" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif">
+<rect width="1000" height="410" fill="#f8fafc" rx="14"/>
+<text x="30" y="40" text-anchor="start" font-size="16" font-weight="700" fill="#1e3a8a">Kỳ thi chung (quản trị nhóm điều khiển)</text>
+<rect x="30" y="58" width="160" height="70" rx="12" fill="#fff" stroke="#16a34a" stroke-width="2.5"/>
+<text x="110" y="92" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">Đang mở</text>
+<text x="110" y="113" text-anchor="middle" font-size="13" fill="#475569">nhận kết quả</text>
+<line x1="193" y1="93" x2="208.0" y2="93.0" stroke="#64748b" stroke-width="2.5"/><polygon points="208.0,100.0 219,93 208.0,86.0" fill="#64748b"/>
+<rect x="222" y="58" width="160" height="70" rx="12" fill="#fff" stroke="#b45309" stroke-width="2.5"/>
+<text x="302" y="92" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">Đã đóng nhận</text>
+<text x="302" y="113" text-anchor="middle" font-size="13" fill="#475569">ngừng nhận mới</text>
+<line x1="385" y1="93" x2="400.0" y2="93.0" stroke="#64748b" stroke-width="2.5"/><polygon points="400.0,100.0 411,93 400.0,86.0" fill="#64748b"/>
+<rect x="414" y="58" width="160" height="70" rx="12" fill="#fff" stroke="#2563eb" stroke-width="2.5"/>
+<text x="494" y="92" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">Đã chốt</text>
+<text x="494" y="113" text-anchor="middle" font-size="13" fill="#475569">biên bản tự lập</text>
+<line x1="577" y1="93" x2="592.0" y2="93.0" stroke="#64748b" stroke-width="2.5"/><polygon points="592.0,100.0 603,93 592.0,86.0" fill="#64748b"/>
+<rect x="606" y="58" width="160" height="70" rx="12" fill="#fff" stroke="#64748b" stroke-width="2.5"/>
+<text x="686" y="92" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">Đã khoá</text>
+<text x="686" y="113" text-anchor="middle" font-size="13" fill="#475569">chỉ đọc</text>
+<line x1="769" y1="93" x2="784.0" y2="93.0" stroke="#64748b" stroke-width="2.5"/><polygon points="784.0,100.0 795,93 784.0,86.0" fill="#64748b"/>
+<rect x="798" y="58" width="160" height="70" rx="12" fill="#fff" stroke="#7c3aed" stroke-width="2.5"/>
+<text x="878" y="92" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">Đã dọn</text>
+<text x="878" y="113" text-anchor="middle" font-size="13" fill="#475569">chỉ còn biên bản</text>
+<text x="30" y="160" text-anchor="start" font-size="13" fill="#475569">Mở lại được khi chưa chốt</text>
+<path d="M 220 130 Q 125 158 60 130" fill="none" stroke="#64748b" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="30" y="206" text-anchor="start" font-size="16" font-weight="700" fill="#166534">Bài chấm của một giáo viên</text>
+<rect x="30" y="224" width="200" height="70" rx="12" fill="#fff" stroke="#2563eb" stroke-width="2.5"/>
+<text x="130" y="258" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">Đang chấm</text>
+<text x="130" y="279" text-anchor="middle" font-size="13" fill="#475569">đã tải về</text>
+<line x1="233" y1="259" x2="256.0" y2="259.0" stroke="#64748b" stroke-width="2.5"/><polygon points="256.0,266.0 267,259 256.0,252.0" fill="#64748b"/>
+<rect x="270" y="224" width="200" height="70" rx="12" fill="#fff" stroke="#b45309" stroke-width="2.5"/>
+<text x="370" y="258" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">Đã gửi</text>
+<text x="370" y="279" text-anchor="middle" font-size="13" fill="#475569">chờ duyệt</text>
+<line x1="473" y1="259" x2="496.0" y2="259.0" stroke="#64748b" stroke-width="2.5"/><polygon points="496.0,266.0 507,259 496.0,252.0" fill="#64748b"/>
+<rect x="510" y="224" width="200" height="70" rx="12" fill="#fff" stroke="#16a34a" stroke-width="2.5"/>
+<text x="610" y="258" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">Đã được duyệt</text>
+<text x="610" y="279" text-anchor="middle" font-size="13" fill="#475569">chốt được</text>
+<rect x="270" y="326" width="200" height="62" rx="12" fill="#fff" stroke="#dc2626" stroke-width="2.5"/>
+<text x="370" y="354" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">Cần chấm lại</text>
+<text x="370" y="375" text-anchor="middle" font-size="13" fill="#475569">sửa rồi gửi lại</text>
+<line x1="340" y1="297" x2="340.0" y2="312.0" stroke="#dc2626" stroke-width="2" stroke-dasharray="6 4"/><polygon points="333.0,312.0 340,323 347.0,312.0" fill="#dc2626"/>
+<line x1="400" y1="323" x2="400.0" y2="308.0" stroke="#dc2626" stroke-width="2" stroke-dasharray="6 4"/><polygon points="407.0,308.0 400,297 393.0,308.0" fill="#dc2626"/>
+<text x="480" y="350" text-anchor="start" font-size="12.5" fill="#dc2626">← quản trị yêu cầu chấm lại</text>
+<text x="480" y="370" text-anchor="start" font-size="12.5" fill="#475569">(giáo viên sửa, gửi lại → “Đã gửi”)</text>
+<rect x="750" y="224" width="220" height="70" rx="12" fill="#fff" stroke="#b45309" stroke-width="2.5"/>
+<text x="860" y="258" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">Quản trị đã sửa</text>
+<text x="860" y="279" text-anchor="middle" font-size="13" fill="#475569">chờ duyệt (chỉ đọc)</text>
+<text x="860" y="324" text-anchor="middle" font-size="12.5" fill="#475569">Sau khi duyệt, muốn đổi: giáo viên</text>
+<text x="860" y="342" text-anchor="middle" font-size="12.5" fill="#475569">“Xin đính chính” → quản trị đồng ý</text>
+<text x="860" y="360" text-anchor="middle" font-size="12.5" fill="#475569">→ bài về “Cần chấm lại”</text>
+</svg>

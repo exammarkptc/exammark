@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 210" role="img" aria-label="Quy trình giao bài và chấm thi online: cài Phòng thi một lần, chọn câu hoặc mã đề, giao và mở bài, học sinh làm bài trên trình duyệt, giáo viên chấm, gửi kết quả và nhập về kỳ thi" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif">
+<rect width="1000" height="210" fill="#f8fafc" rx="14"/>
+<rect x="29" y="44" width="178" height="120" rx="14" fill="#fff" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="57" cy="44" r="17" fill="#2563eb"/><text x="57" y="50" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">1</text>
+<text x="118.0" y="92" text-anchor="middle" font-size="16.5" font-weight="700" fill="#0f172a">Cài một lần</text>
+<text x="118.0" y="116" text-anchor="middle" font-size="13" fill="#475569">menu ExamRoom trong</text>
+<text x="118.0" y="135" text-anchor="middle" font-size="13" fill="#475569">Google Sheet của bạn</text>
+<line x1="210" y1="104" x2="211" y2="104" stroke="#64748b" stroke-width="2.5"/><polygon points="211,111 222,104 211,97" fill="#64748b"/>
+<rect x="223" y="44" width="178" height="120" rx="14" fill="#fff" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="251" cy="44" r="17" fill="#2563eb"/><text x="251" y="50" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">2</text>
+<text x="312.0" y="92" text-anchor="middle" font-size="16.5" font-weight="700" fill="#0f172a">Chọn câu / đề</text>
+<text x="312.0" y="116" text-anchor="middle" font-size="13" fill="#475569">từ ngân hàng hoặc</text>
+<text x="312.0" y="135" text-anchor="middle" font-size="13" fill="#475569">mã đề của kỳ thi</text>
+<line x1="404" y1="104" x2="405" y2="104" stroke="#64748b" stroke-width="2.5"/><polygon points="405,111 416,104 405,97" fill="#64748b"/>
+<rect x="417" y="44" width="178" height="120" rx="14" fill="#fff" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="445" cy="44" r="17" fill="#2563eb"/><text x="445" y="50" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">3</text>
+<text x="506.0" y="92" text-anchor="middle" font-size="16.5" font-weight="700" fill="#0f172a">Giao &amp; mở bài</text>
+<text x="506.0" y="116" text-anchor="middle" font-size="13" fill="#475569">nhận mã vào thi,</text>
+<text x="506.0" y="135" text-anchor="middle" font-size="13" fill="#475569">đường dẫn và mã QR</text>
+<line x1="598" y1="104" x2="599" y2="104" stroke="#64748b" stroke-width="2.5"/><polygon points="599,111 610,104 599,97" fill="#64748b"/>
+<rect x="611" y="44" width="178" height="120" rx="14" fill="#fff" stroke="#16a34a" stroke-width="2.5"/>
+<circle cx="639" cy="44" r="17" fill="#16a34a"/><text x="639" y="50" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">4</text>
+<text x="700.0" y="92" text-anchor="middle" font-size="16.5" font-weight="700" fill="#0f172a">Học sinh thi</text>
+<text x="700.0" y="116" text-anchor="middle" font-size="13" fill="#475569">trên trình duyệt,</text>
+<text x="700.0" y="135" text-anchor="middle" font-size="13" fill="#475569">không cần tài khoản</text>
+<line x1="792" y1="104" x2="793" y2="104" stroke="#64748b" stroke-width="2.5"/><polygon points="793,111 804,104 793,97" fill="#64748b"/>
+<rect x="805" y="44" width="178" height="120" rx="14" fill="#fff" stroke="#b45309" stroke-width="2.5"/>
+<circle cx="833" cy="44" r="17" fill="#b45309"/><text x="833" y="50" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">5</text>
+<text x="894.0" y="92" text-anchor="middle" font-size="16.5" font-weight="700" fill="#0f172a">Chấm &amp; gửi</text>
+<text x="894.0" y="116" text-anchor="middle" font-size="13" fill="#475569">thống kê, nhận xét,</text>
+<text x="894.0" y="135" text-anchor="middle" font-size="13" fill="#475569">gửi email, nhập về app</text>
+<text x="500" y="194" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a">Dữ liệu nằm trong Google Sheet và Drive của giáo viên — không qua máy chủ của ExamMark.</text>
+</svg>

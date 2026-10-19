@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 210" role="img" aria-label="Quy trình chấm tự luận: nhập đề và barem, chụp bài, AI chép và chấm, giáo viên xem và sửa, duyệt và xuất" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif">
+<rect width="1000" height="210" fill="#f8fafc" rx="14"/>
+<rect x="29" y="44" width="142" height="120" rx="14" fill="#fff" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="57" cy="44" r="17" fill="#2563eb"/><text x="57" y="50" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">1</text>
+<text x="100.0" y="92.0" text-anchor="middle" font-size="16.5" font-weight="700" fill="#0f172a">Đề &amp; barem</text>
+<text x="100.0" y="116.0" text-anchor="middle" font-size="13.5" fill="#475569">đề, đáp án, barem</text>
+<text x="100.0" y="135.0" text-anchor="middle" font-size="13.5" fill="#475569">+ danh sách thí sinh</text>
+<line x1="174" y1="104" x2="175.0" y2="104.0" stroke="#64748b" stroke-width="2.5"/><polygon points="175.0,111.0 186,104 175.0,97.0" fill="#64748b"/>
+<rect x="189" y="44" width="142" height="120" rx="14" fill="#fff" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="217" cy="44" r="17" fill="#2563eb"/><text x="217" y="50" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">2</text>
+<text x="260.0" y="92.0" text-anchor="middle" font-size="16.5" font-weight="700" fill="#0f172a">Chụp bài làm</text>
+<text x="260.0" y="116.0" text-anchor="middle" font-size="13.5" fill="#475569">theo từng thí sinh</text>
+<text x="260.0" y="135.0" text-anchor="middle" font-size="13.5" fill="#475569">hoặc nhập hàng loạt</text>
+<line x1="334" y1="104" x2="335.0" y2="104.0" stroke="#64748b" stroke-width="2.5"/><polygon points="335.0,111.0 346,104 335.0,97.0" fill="#64748b"/>
+<rect x="349" y="44" width="142" height="120" rx="14" fill="#fff" stroke="#b45309" stroke-width="2.5"/>
+<circle cx="377" cy="44" r="17" fill="#b45309"/><text x="377" y="50" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">3</text>
+<text x="420.0" y="92.0" text-anchor="middle" font-size="16.5" font-weight="700" fill="#0f172a">AI chép bài</text>
+<text x="420.0" y="116.0" text-anchor="middle" font-size="13.5" fill="#475569">từ ảnh viết tay</text>
+<text x="420.0" y="135.0" text-anchor="middle" font-size="13.5" fill="#475569">→ bản chép</text>
+<line x1="494" y1="104" x2="495.0" y2="104.0" stroke="#64748b" stroke-width="2.5"/><polygon points="495.0,111.0 506,104 495.0,97.0" fill="#64748b"/>
+<rect x="509" y="44" width="142" height="120" rx="14" fill="#fff" stroke="#b45309" stroke-width="2.5"/>
+<circle cx="537" cy="44" r="17" fill="#b45309"/><text x="537" y="50" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">4</text>
+<text x="580.0" y="92.0" text-anchor="middle" font-size="16.5" font-weight="700" fill="#0f172a">AI chấm</text>
+<text x="580.0" y="116.0" text-anchor="middle" font-size="13.5" fill="#475569">từng ý theo barem</text>
+<text x="580.0" y="135.0" text-anchor="middle" font-size="13.5" fill="#475569">+ lý do, cờ xem lại</text>
+<line x1="654" y1="104" x2="655.0" y2="104.0" stroke="#64748b" stroke-width="2.5"/><polygon points="655.0,111.0 666,104 655.0,97.0" fill="#64748b"/>
+<rect x="669" y="44" width="142" height="120" rx="14" fill="#fff" stroke="#16a34a" stroke-width="2.5"/>
+<circle cx="697" cy="44" r="17" fill="#16a34a"/><text x="697" y="50" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">5</text>
+<text x="740.0" y="92.0" text-anchor="middle" font-size="16.5" font-weight="700" fill="#0f172a">Xem &amp; sửa</text>
+<text x="740.0" y="116.0" text-anchor="middle" font-size="13.5" fill="#475569">giáo viên sửa chép,</text>
+<text x="740.0" y="135.0" text-anchor="middle" font-size="13.5" fill="#475569">điểm, ghi chú</text>
+<line x1="814" y1="104" x2="815.0" y2="104.0" stroke="#64748b" stroke-width="2.5"/><polygon points="815.0,111.0 826,104 815.0,97.0" fill="#64748b"/>
+<rect x="829" y="44" width="142" height="120" rx="14" fill="#fff" stroke="#16a34a" stroke-width="2.5"/>
+<circle cx="857" cy="44" r="17" fill="#16a34a"/><text x="857" y="50" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">6</text>
+<text x="900.0" y="92.0" text-anchor="middle" font-size="16.5" font-weight="700" fill="#0f172a">Duyệt &amp; xuất</text>
+<text x="900.0" y="116.0" text-anchor="middle" font-size="13.5" fill="#475569">CSV · Excel · JSON</text>
+<text x="900.0" y="135.0" text-anchor="middle" font-size="13.5" fill="#475569">hoặc gửi rà soát</text>
+<text x="500" y="194" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a">AI đề xuất — giáo viên quyết định. Điểm tổng luôn do app cộng lại từ điểm từng ý.</text>
+</svg>

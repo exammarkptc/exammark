@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 190" role="img" aria-label="Quy trình 5 bước của ExamMark" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif">
+<rect width="1000" height="190" fill="#f8fafc" rx="14"/>
+<rect x="20" y="34" width="168" height="122" rx="14" fill="#fff" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="48" cy="34" r="19" fill="#2563eb"/><text x="48" y="41" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">1</text>
+<text x="104.0" y="86" text-anchor="middle" font-size="17.5" font-weight="700" fill="#0f172a">Tạo mẫu phiếu</text>
+<text x="104.0" y="112" text-anchor="middle" font-size="14" fill="#475569">A4 hoặc A5, số câu</text>
+<text x="104.0" y="132" text-anchor="middle" font-size="14" fill="#475569">từng phần</text>
+<line x1="192" y1="95" x2="210" y2="95" stroke="#64748b" stroke-width="2.5"/><polygon points="208,88 219,95 208,102" fill="#64748b"/>
+<rect x="218" y="34" width="168" height="122" rx="14" fill="#fff" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="246" cy="34" r="19" fill="#2563eb"/><text x="246" y="41" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">2</text>
+<text x="302.0" y="86" text-anchor="middle" font-size="17.5" font-weight="700" fill="#0f172a">Tạo kỳ thi</text>
+<text x="302.0" y="112" text-anchor="middle" font-size="14" fill="#475569">Nhập đáp án, mã đề,</text>
+<text x="302.0" y="132" text-anchor="middle" font-size="14" fill="#475569">danh sách thí sinh</text>
+<line x1="390" y1="95" x2="408" y2="95" stroke="#64748b" stroke-width="2.5"/><polygon points="406,88 417,95 406,102" fill="#64748b"/>
+<rect x="416" y="34" width="168" height="122" rx="14" fill="#fff" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="444" cy="34" r="19" fill="#2563eb"/><text x="444" y="41" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">3</text>
+<text x="500.0" y="86" text-anchor="middle" font-size="17.5" font-weight="700" fill="#0f172a">In phiếu</text>
+<text x="500.0" y="112" text-anchor="middle" font-size="14" fill="#475569">Tải PDF phiếu trống,</text>
+<text x="500.0" y="132" text-anchor="middle" font-size="14" fill="#475569">in tỉ lệ 100%</text>
+<line x1="588" y1="95" x2="606" y2="95" stroke="#64748b" stroke-width="2.5"/><polygon points="604,88 615,95 604,102" fill="#64748b"/>
+<rect x="614" y="34" width="168" height="122" rx="14" fill="#fff" stroke="#16a34a" stroke-width="2.5"/>
+<circle cx="642" cy="34" r="19" fill="#16a34a"/><text x="642" y="41" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">4</text>
+<text x="698.0" y="86" text-anchor="middle" font-size="17.5" font-weight="700" fill="#0f172a">Chấm bằng camera</text>
+<text x="698.0" y="112" text-anchor="middle" font-size="14" fill="#475569">Canh 4 góc, quét</text>
+<text x="698.0" y="132" text-anchor="middle" font-size="14" fill="#475569">ngay trên máy</text>
+<line x1="786" y1="95" x2="804" y2="95" stroke="#64748b" stroke-width="2.5"/><polygon points="802,88 813,95 802,102" fill="#64748b"/>
+<rect x="812" y="34" width="168" height="122" rx="14" fill="#fff" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="840" cy="34" r="19" fill="#2563eb"/><text x="840" y="41" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">5</text>
+<text x="896.0" y="86" text-anchor="middle" font-size="17.5" font-weight="700" fill="#0f172a">Xem lại &amp; xuất</text>
+<text x="896.0" y="112" text-anchor="middle" font-size="14" fill="#475569">Sửa câu mơ hồ,</text>
+<text x="896.0" y="132" text-anchor="middle" font-size="14" fill="#475569">xuất Excel/CSV</text>
+<text x="500" y="180" text-anchor="middle" font-size="13.5" fill="#64748b">Chỉ lần kích hoạt đầu tiên cần Internet — các bước 1 đến 5 chạy offline trên điện thoại</text></svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 450" role="img" aria-label="Quy trình kỳ thi nhóm: quản trị nhóm đẩy kỳ thi lên Hub, giáo viên tải về chấm và gửi, quản trị duyệt, chốt và lập biên bản" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif">
+<rect width="1000" height="450" fill="#f8fafc" rx="14"/>
+<rect x="20" y="16" width="960" height="134" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="44" y="42" text-anchor="start" font-size="15" font-weight="700" fill="#1e3a8a">Quản trị nhóm</text>
+<rect x="20" y="300" width="960" height="134" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+<text x="44" y="326" text-anchor="start" font-size="15" font-weight="700" fill="#166534">Giáo viên (thành viên nhóm con)</text>
+<rect x="300" y="170" width="400" height="112" rx="16" fill="#faf5ff" stroke="#7c3aed" stroke-width="2.5"/>
+<text x="500" y="203" text-anchor="middle" font-size="19" font-weight="700" fill="#5b21b6">Group Hub</text>
+<text x="500" y="228" text-anchor="middle" font-size="13.5" fill="#475569">Drive &amp; Sheet của chính quản trị nhóm</text>
+<text x="500" y="252" text-anchor="middle" font-size="13.5" font-weight="700" fill="#dc2626">Ảnh bài làm KHÔNG gửi lên Hub</text>
+<rect x="40" y="66" width="210" height="66" rx="10" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+<circle cx="60" cy="66" r="13" fill="#2563eb"/><text x="60" y="72" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">1</text>
+<text x="145.0" y="95" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a">Đẩy kỳ thi lên Hub</text>
+<text x="145.0" y="116" text-anchor="middle" font-size="12.5" fill="#475569">chọn nhóm con, hạn, phân công</text>
+<rect x="560" y="66" width="190" height="66" rx="10" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+<circle cx="580" cy="66" r="13" fill="#2563eb"/><text x="580" y="72" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">5</text>
+<text x="655.0" y="95" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a">Duyệt / chấm lại</text>
+<text x="655.0" y="116" text-anchor="middle" font-size="12.5" fill="#475569">xem chi tiết, sửa điểm</text>
+<rect x="780" y="66" width="180" height="66" rx="10" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+<circle cx="800" cy="66" r="13" fill="#2563eb"/><text x="800" y="72" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">6</text>
+<text x="870.0" y="95" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a">Chốt + biên bản</text>
+<text x="870.0" y="116" text-anchor="middle" font-size="12.5" fill="#475569">dọn dữ liệu khi cần</text>
+<rect x="40" y="352" width="210" height="66" rx="10" fill="#fff" stroke="#16a34a" stroke-width="2"/>
+<circle cx="60" cy="352" r="13" fill="#16a34a"/><text x="60" y="358" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">2</text>
+<text x="145.0" y="381" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a">Tải về để chấm</text>
+<text x="145.0" y="402" text-anchor="middle" font-size="12.5" fill="#475569">đề + đáp án + thí sinh</text>
+<rect x="290" y="352" width="190" height="66" rx="10" fill="#fff" stroke="#16a34a" stroke-width="2"/>
+<circle cx="310" cy="352" r="13" fill="#16a34a"/><text x="310" y="358" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">3</text>
+<text x="385.0" y="381" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a">Chấm offline</text>
+<text x="385.0" y="402" text-anchor="middle" font-size="12.5" fill="#475569">camera, ngay trên máy</text>
+<rect x="520" y="352" width="200" height="66" rx="10" fill="#fff" stroke="#16a34a" stroke-width="2"/>
+<circle cx="540" cy="352" r="13" fill="#16a34a"/><text x="540" y="358" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">4</text>
+<text x="620.0" y="381" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a">Hoàn thiện &amp; gửi</text>
+<text x="620.0" y="402" text-anchor="middle" font-size="12.5" fill="#475569">kết quả (không kèm ảnh)</text>
+<rect x="760" y="352" width="200" height="66" rx="10" fill="#fff" stroke="#dc2626" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="860" y="380" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a">Cần chấm lại?</text>
+<text x="860" y="401" text-anchor="middle" font-size="12.5" fill="#475569">sửa rồi gửi lại (bước 4)</text>
+<line x1="190" y1="134" x2="369.2" y2="166.1" stroke="#2563eb" stroke-width="2.5"/><polygon points="367.9,173.0 380,168 370.4,159.2" fill="#2563eb"/>
+<line x1="380" y1="284" x2="170.5" y2="346.8" stroke="#16a34a" stroke-width="2.5"/><polygon points="168.5,340.1 160,350 172.5,353.5" fill="#16a34a"/>
+<line x1="253" y1="385" x2="276.0" y2="385.0" stroke="#16a34a" stroke-width="2.5"/><polygon points="276.0,392.0 287,385 276.0,378.0" fill="#16a34a"/>
+<line x1="483" y1="385" x2="506.0" y2="385.0" stroke="#16a34a" stroke-width="2.5"/><polygon points="506.0,392.0 517,385 506.0,378.0" fill="#16a34a"/>
+<line x1="640" y1="350" x2="568.5" y2="291.0" stroke="#16a34a" stroke-width="2.5"/><polygon points="572.9,285.6 560,284 564.0,296.4" fill="#16a34a"/>
+<line x1="620" y1="168" x2="642.7" y2="142.2" stroke="#2563eb" stroke-width="2.5"/><polygon points="648.0,146.9 650,134 637.5,137.6" fill="#2563eb"/>
+<line x1="753" y1="99" x2="766.0" y2="99.0" stroke="#2563eb" stroke-width="2.5"/><polygon points="766.0,106.0 777,99 766.0,92.0" fill="#2563eb"/>
+<line x1="700" y1="262" x2="791.7" y2="342.7" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="6 4"/><polygon points="787.1,348.0 800,350 796.4,337.5" fill="#dc2626"/>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 676" role="img" aria-label="Dữ liệu nằm ở đâu và khi nào cần Internet: điện thoại, máy chủ bản quyền, đăng nhập Google, Drive, Group Hub, nhà cung cấp AI, Phòng thi online" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif">
+<rect width="1000" height="676" fill="#f8fafc" rx="14"/>
+<rect x="24" y="24" width="400" height="470" rx="16" fill="#eff6ff" stroke="#2563eb" stroke-width="2.5"/>
+<text x="224" y="62" text-anchor="middle" font-size="21" font-weight="700" fill="#1e3a8a">Điện thoại của bạn</text>
+<text x="224" y="86" text-anchor="middle" font-size="14.5" fill="#1e40af">chạy offline — dữ liệu nằm ở đây</text>
+<rect x="48" y="108" width="352" height="40" rx="9" fill="#fff" stroke="#93c5fd" stroke-width="1.5"/>
+<text x="224" y="134" text-anchor="middle" font-size="15" fill="#0f172a">Kỳ thi, mã đề, đáp án</text>
+<rect x="48" y="160" width="352" height="40" rx="9" fill="#fff" stroke="#93c5fd" stroke-width="1.5"/>
+<text x="224" y="186" text-anchor="middle" font-size="15" fill="#0f172a">Ngân hàng câu hỏi, kho hình, danh mục</text>
+<rect x="48" y="212" width="352" height="40" rx="9" fill="#fff" stroke="#93c5fd" stroke-width="1.5"/>
+<text x="224" y="238" text-anchor="middle" font-size="15" fill="#0f172a">Danh sách thí sinh</text>
+<rect x="48" y="264" width="352" height="40" rx="9" fill="#fff" stroke="#93c5fd" stroke-width="1.5"/>
+<text x="224" y="290" text-anchor="middle" font-size="15" fill="#0f172a">Kết quả chấm &amp; bằng chứng chấm</text>
+<rect x="48" y="316" width="352" height="40" rx="9" fill="#fff" stroke="#93c5fd" stroke-width="1.5"/>
+<text x="224" y="342" text-anchor="middle" font-size="15" fill="#0f172a">Dữ liệu chấm tự luận (nếu dùng)</text>
+<rect x="48" y="368" width="352" height="40" rx="9" fill="#fff" stroke="#93c5fd" stroke-width="1.5"/>
+<text x="224" y="394" text-anchor="middle" font-size="15" fill="#0f172a">Tệp xuất (Excel/CSV/PDF/LaTeX)</text>
+<rect x="48" y="420" width="352" height="40" rx="9" fill="#fff" stroke="#93c5fd" stroke-width="1.5"/>
+<text x="224" y="446" text-anchor="middle" font-size="15" fill="#0f172a">Camera: xử lý ảnh ngay trên máy</text>
+<rect x="560" y="24" width="416" height="80" rx="14" fill="#fff" stroke="#2563eb" stroke-width="2.5"/>
+<text x="768" y="54" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">Máy chủ bản quyền</text>
+<text x="768" y="74" text-anchor="middle" font-size="13" fill="#475569">kích hoạt/làm mới license — thỉnh thoảng</text>
+<text x="768" y="93" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1e40af">Mã license, email, mã thiết bị</text>
+<line x1="428" y1="150" x2="546.9" y2="70.1" stroke="#64748b" stroke-width="2" stroke-dasharray="7 5"/><polygon points="550.8,75.9 556,64 543.0,64.3" fill="#64748b"/>
+<rect x="560" y="118" width="416" height="80" rx="14" fill="#fff" stroke="#2563eb" stroke-width="2.5"/>
+<text x="768" y="148" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">Đăng nhập Google</text>
+<text x="768" y="168" text-anchor="middle" font-size="13" fill="#475569">xác định thành viên/dùng thử — khi đăng nhập</text>
+<text x="768" y="187" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1e40af">Chỉ email &amp; hồ sơ cơ bản</text>
+<line x1="428" y1="190" x2="545.3" y2="160.7" stroke="#64748b" stroke-width="2" stroke-dasharray="7 5"/><polygon points="547.0,167.5 556,158 543.6,153.9" fill="#64748b"/>
+<rect x="560" y="212" width="416" height="80" rx="14" fill="#fff" stroke="#2563eb" stroke-width="2.5"/>
+<text x="768" y="242" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">Google Drive của bạn</text>
+<text x="768" y="262" text-anchor="middle" font-size="13" fill="#475569">sao lưu TUỲ CHỌN (drive.file)</text>
+<text x="768" y="281" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1e40af">Chỉ khi bạn bật</text>
+<line x1="428" y1="230" x2="545.2" y2="250.1" stroke="#64748b" stroke-width="2" stroke-dasharray="7 5"/><polygon points="544.0,257.0 556,252 546.3,243.2" fill="#64748b"/>
+<rect x="560" y="306" width="416" height="80" rx="14" fill="#fff" stroke="#7c3aed" stroke-width="2.5"/>
+<text x="768" y="336" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">Group Hub của quản trị nhóm</text>
+<text x="768" y="356" text-anchor="middle" font-size="13" fill="#475569">kỳ thi chung — Drive/Sheet của nhóm bạn</text>
+<text x="768" y="375" text-anchor="middle" font-size="12.5" font-weight="700" fill="#7c3aed">Đề, điểm, đáp án — KHÔNG có ảnh</text>
+<line x1="428" y1="270" x2="546.5" y2="340.4" stroke="#64748b" stroke-width="2" stroke-dasharray="7 5"/><polygon points="543.0,346.4 556,346 550.1,334.4" fill="#64748b"/>
+<rect x="560" y="400" width="416" height="80" rx="14" fill="#fff" stroke="#b45309" stroke-width="2.5"/>
+<text x="768" y="430" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">Nhà cung cấp AI bạn chọn</text>
+<text x="768" y="450" text-anchor="middle" font-size="13" fill="#475569">chỉ khi dùng chế độ chấm tự luận</text>
+<text x="768" y="469" text-anchor="middle" font-size="12.5" font-weight="700" fill="#b45309">Ảnh bài làm + đề/đáp án/barem</text>
+<line x1="428" y1="310" x2="548.3" y2="432.2" stroke="#64748b" stroke-width="2" stroke-dasharray="7 5"/><polygon points="543.3,437.1 556,440 553.3,427.3" fill="#64748b"/>
+<rect x="560" y="494" width="416" height="80" rx="14" fill="#fff" stroke="#16a34a" stroke-width="2.5"/>
+<text x="768" y="524" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">Phòng thi online của giáo viên</text>
+<text x="768" y="544" text-anchor="middle" font-size="13" fill="#475569">chỉ khi giao bài online — Sheet/Drive của chính bạn</text>
+<text x="768" y="563" text-anchor="middle" font-size="12.5" font-weight="700" fill="#15803d">Bài làm, họ tên, lớp, điểm của học sinh</text>
+<line x1="428" y1="440" x2="546.3" y2="526.9" stroke="#64748b" stroke-width="2" stroke-dasharray="7 5"/><polygon points="542.5,532.1 556,534 550.2,521.7" fill="#64748b"/>
+<text x="500" y="616" text-anchor="middle" font-size="14.5" font-weight="700" fill="#0f172a">Nhà phát triển không nhận được bài thi, ảnh phiếu, danh sách học sinh hay mã truy cập Drive của bạn.</text>
+<text x="500" y="640" text-anchor="middle" font-size="13.5" fill="#475569">Dữ liệu tới Hub nằm trong Drive của quản trị nhóm; dữ liệu tới nhà cung cấp AI đi trực tiếp từ máy bạn (khoá API của bạn).</text>
+<text x="500" y="661" text-anchor="middle" font-size="13.5" fill="#475569">Dữ liệu giao bài online nằm trong Google của giáo viên; trang làm bài của học sinh tải thư viện công thức từ jsDelivr.</text>
+</svg>

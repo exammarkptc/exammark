@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" role="img" aria-label="Ý nghĩa màu trên ảnh kết quả chấm" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif">
+<rect width="1000" height="330" fill="#f8fafc" rx="14"/>
+<text x="30" y="40" font-size="20" font-weight="700" fill="#0f172a">Ý nghĩa các màu trên ảnh phiếu sau khi chấm</text>
+<circle cx="52" cy="84" r="17" fill="#fff" stroke="#16a34a" stroke-width="4"/>
+<text x="92" y="82" font-size="17" font-weight="700" fill="#0f172a">Vòng xanh lá</text><text x="92" y="101" font-size="14.5" fill="#475569">Đáp án đúng (hiện khi thí sinh tô sai/thiếu)</text>
+<circle cx="52" cy="133" r="17" fill="#dc2626" fill-opacity=".85" stroke="#334155" stroke-width="1.2"/>
+<text x="92" y="131" font-size="17" font-weight="700" fill="#0f172a">Ô đỏ</text><text x="92" y="150" font-size="14.5" fill="#475569">Thí sinh tô SAI đáp án</text>
+<circle cx="52" cy="182" r="17" fill="#a855f7" fill-opacity=".85" stroke="#334155" stroke-width="1.2"/>
+<text x="92" y="180" font-size="17" font-weight="700" fill="#0f172a">Ô tím</text><text x="92" y="199" font-size="14.5" fill="#475569">Tô 2 đáp án trở lên — chưa xác định, tạm tính sai</text>
+<circle cx="52" cy="231" r="17" fill="#f59e0b" fill-opacity=".85" stroke="#334155" stroke-width="1.2"/>
+<text x="92" y="229" font-size="17" font-weight="700" fill="#0f172a">Ô cam</text><text x="92" y="248" font-size="14.5" fill="#475569">Tô đúng nhưng nhạt — máy vẫn tính, ghi “Xem lại”</text>
+<circle cx="52" cy="280" r="17" fill="#1d4ed8" fill-opacity=".85" stroke="#334155" stroke-width="1.2"/>
+<text x="92" y="278" font-size="17" font-weight="700" fill="#0f172a">Ô xanh dương</text><text x="92" y="297" font-size="14.5" fill="#475569">Ô thí sinh đã tô (đọc bình thường)</text>
+</svg>
