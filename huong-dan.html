@@ -1,0 +1,930 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hướng dẫn sử dụng ExamMark</title>
+<meta name="description" content="Hướng dẫn từng bước dùng ExamMark: kích hoạt, tạo mẫu phiếu, tạo kỳ thi, ngân hàng câu hỏi, trộn đề, in phiếu, chấm bằng camera, kỳ thi nhóm, chấm tự luận bằng AI, giao bài và chấm thi online (Phòng thi), xuất kết quả.">
+<meta name="theme-color" content="#2563eb">
+<link rel="icon" type="image/png" href="assets/img/favicon-64.png">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+<a class="brand" href="index.html"><img src="assets/img/logo-192.png" alt="" width="34" height="34">ExamMark</a>
+<nav class="main" aria-label="Điều hướng chính"><a href="index.html">Trang chủ &amp; tải về</a><a href="gioi-thieu.html">Giới thiệu</a><a href="huong-dan.html" aria-current="page">Hướng dẫn sử dụng</a><a href="privacy.html">Quyền riêng tư</a></nav>
+</div></header>
+
+<main><div class="wrap">
+
+<div class="layout">
+<nav class="toc" aria-label="Mục lục"><b>Mục lục</b><a href="#cai-dat">1. Cài đặt &amp; kích hoạt</a><a href="#giao-dien">2. Làm quen giao diện</a><a href="#mau-phieu">3. Tạo mẫu phiếu</a><a href="#ky-thi">4. Tạo kỳ thi</a><a href="#soan-de">5. Soạn đề &amp; đáp án</a><a href="#ngan-hang">6. Ngân hàng câu hỏi</a><a href="#tron-de">7. Trộn đề &amp; xuất đề</a><a href="#thi-sinh">8. Danh sách thí sinh &amp; QR</a><a href="#in-phieu">9. In phiếu</a><a href="#thi-sinh-to">10. Hướng dẫn thí sinh tô phiếu</a><a href="#cham-bai">11. Chấm bài bằng camera</a><a href="#xem-lai">12. Xem lại &amp; sửa câu mơ hồ</a><a href="#ket-qua">13. Kết quả, thống kê &amp; xuất tệp</a><a href="#ky-thi-nhom">14. Kỳ thi nhóm (tab Nhóm)</a><a href="#tu-luan">15. Chấm tự luận bằng AI</a><a href="#giao-bai-online">16. Giao bài &amp; chấm thi online</a><a href="#dong-bo">17. Tab Đồng bộ</a><a href="#drive">18. Sao lưu Google Drive</a><a href="#to-chuc">19. Tổ chức &amp; thành viên</a><a href="#test">20. Thử nhanh bằng phiếu mô phỏng</a><a href="#meo-chup">21. Mẹo chụp cho chấm chính xác</a><a href="#su-co">22. Xử lý sự cố</a><a href="#faq">23. Câu hỏi thường gặp</a></nav>
+<article>
+<h1 style="margin-top:0">Hướng dẫn sử dụng ExamMark</h1>
+<p class="lead">Hướng dẫn từng bước từ lúc cài đặt đến lúc xuất bảng điểm. Tên nút, tab được ghi đúng như trên màn hình ứng dụng, ví dụ <span class="ui">Chấm bài</span>.</p>
+<div class="callout tip"><b class="t">Làm nhanh trong 10 phút</b><p>Cài app → kích hoạt → tab <span class="ui">Kỳ thi</span>: tạo kỳ thi → tab <span class="ui">Soạn đề</span>: nhập đáp án → in phiếu → tô thử một phiếu → tab <span class="ui">Chấm bài</span>: chụp và xác nhận. Nếu muốn thử mà chưa có phiếu thật, xem <a href="#test">mục 20</a>.</p></div>
+
+<h2 id="cai-dat"><span class="n">1</span>Cài đặt &amp; kích hoạt</h2>
+<ol class="steps">
+<li>Tải tệp APK từ <a href="index.html">trang chủ</a>, mở tệp và cho phép cài đặt từ nguồn này (chi tiết ở trang chủ).</li>
+<li>Mở ExamMark. Màn hình <span class="ui">Kích hoạt ExamMark</span> hiện ra ở lần đầu. Có ba cách bắt đầu:
+<ul>
+<li><b>Dùng thử miễn phí</b> — thời hạn mặc định 14 ngày, hạn mức thấp hơn gói trả phí.</li>
+<li><b>Nhập mã license</b> dạng <code>EXM-XXXX-XXXX-XXXX</code> do quản trị cấp (cá nhân hoặc tổ chức).</li>
+<li><b>Đăng nhập Google</b> bằng email đã được quản trị tổ chức thêm vào danh sách thành viên.</li>
+</ul></li>
+<li>Giữ kết nối Internet trong lần kích hoạt đầu tiên. Sau đó ứng dụng chạy offline; khi có mạng nó tự làm mới license. Nếu quá lâu không có mạng (mặc định khoảng 7 ngày, có thêm vài ngày ân hạn), app sẽ yêu cầu kết nối một lần rồi mới tiếp tục quét/chấm.</li>
+</ol>
+<figure class="shot">
+<img src="assets/img/shots/01-kich-hoat.png" alt="Màn hình kích hoạt ExamMark" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Chụp màn hình “Kích hoạt ExamMark” (có ô nhập mã license và nút dùng thử)</b><code>assets/img/shots/01-kich-hoat.png</code></div>
+<figcaption>Màn hình kích hoạt ExamMark</figcaption>
+</figure>
+<div class="callout"><b class="t">Một số thông báo bạn có thể gặp</b><p><b>Mã license không hợp lệ / đã hết hạn / vượt số thiết bị</b>: kiểm tra lại mã, hoặc liên hệ quản trị để gia hạn hoặc gỡ bớt thiết bị cũ. <b>Thiết bị bị khoá</b>: liên hệ quản trị. Xem thêm <a href="#su-co">mục 22</a>.</p></div>
+
+<h2 id="giao-dien"><span class="n">2</span>Làm quen giao diện</h2>
+<p>Dưới cùng màn hình có <b>6 tab</b> theo thứ tự công việc:</p>
+<table class="tbl"><tr><th>Tab</th><th>Dùng để</th></tr>
+<tr><td>📚 <b>Kỳ thi</b></td><td>Tạo mẫu phiếu, tạo kỳ thi, chọn kỳ thi đang làm việc.</td></tr>
+<tr><td>✏️ <b>Soạn đề</b></td><td>Nhập đáp án theo mã đề, <b>ngân hàng câu hỏi</b>, <b>trộn đề</b>, quản lý thí sinh, in phiếu, sinh mã QR (mục <a href="#soan-de">5</a>–<a href="#in-phieu">9</a>).</td></tr>
+<tr><td>📸 <b>Chấm bài</b></td><td>Chụp/chọn ảnh phiếu, xem kết quả nhận dạng, xác nhận chấm, sửa câu mơ hồ.</td></tr>
+<tr><td>📊 <b>Kết quả</b></td><td>Xuất Excel/CSV, xem bài đã chấm, <b>thống kê kỳ thi</b>.</td></tr>
+<tr><td>👥 <b>Nhóm</b></td><td><b>Kỳ thi chung</b> của trường/tổ: giáo viên tải đề về chấm và gửi kết quả; quản trị nhóm đẩy đề, duyệt, chốt (mục <a href="#ky-thi-nhom">14</a>).</td></tr>
+<tr><td>🔄 <b>Đồng bộ</b></td><td>Xem bài đã chấm lưu trên máy, nhật ký kỹ thuật (xem <a href="#dong-bo">mục 17</a>).</td></tr></table>
+<p>Nút <span class="ui">⚙️</span> ở góc trên mở <b>Cài đặt &amp; Đăng nhập</b>: tài khoản, license, sao lưu Google Drive, quản lý tổ chức, hướng dẫn &amp; gửi yêu cầu hỗ trợ.</p>
+<p>Ở thanh tiêu đề còn có ô chọn chế độ <span class="ui">📱 Chấm trắc nghiệm</span> | <span class="ui">🤖 Chấm tự luận</span> | <span class="ui">🌐 Phòng thi online</span>: chế độ tự luận (xem <a href="#tu-luan">mục 15</a>) và chế độ Phòng thi để giao bài cho học sinh làm trên trình duyệt (xem <a href="#giao-bai-online">mục 16</a>) đều có giao diện riêng.</p>
+<figure class="shot">
+<img src="assets/img/shots/02-man-hinh-chinh.png" alt="Giao diện chính với 6 tab và nút Cài đặt" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Chụp màn hình chính, thấy rõ 6 tab phía dưới (Kỳ thi · Soạn đề · Chấm bài · Kết quả · Nhóm · Đồng bộ), nút ⚙️ và ô chọn chế độ (3 lựa chọn) ở phía trên</b><code>assets/img/shots/02-man-hinh-chinh.png</code></div>
+<figcaption>Giao diện chính với 6 tab và nút Cài đặt</figcaption>
+</figure>
+
+<h2 id="mau-phieu"><span class="n">3</span>Tạo mẫu phiếu</h2>
+<p>Mẫu phiếu quy định hình dạng tờ giấy và số câu từng phần. Một mẫu dùng lại cho nhiều kỳ thi. Vào tab <span class="ui">Kỳ thi</span> → <span class="ui">🆕 Tạo mẫu phiếu mới</span>.</p>
+<ol class="steps">
+<li>Chọn <b>Khổ giấy</b> (A4 hoặc A5) và <b>hướng</b> (dọc/ngang).</li>
+<li>Nhập số câu <b>Phần I</b> (nhiều lựa chọn), <b>Phần II</b> (Đúng/Sai), <b>Phần III</b> (trả lời ngắn); chọn 4 hay 5 phương án; chọn số chữ số của <b>số báo danh</b> và <b>mã đề</b>.</li>
+<li>Tuỳ chọn: nhập <b>Tiêu đề phiếu</b> (mặc định “PHIẾU TRẢ LỜI TRẮC NGHIỆM”) và <b>Tên kỳ thi hiển thị trên phiếu</b>. Với A4 có thể đổi <b>thứ tự khối câu hỏi</b> từ trên xuống dưới.</li>
+<li>Bấm <span class="ui">🖼️ Sinh &amp; xem trước mẫu phiếu</span> và kiểm tra hình phiếu.</li>
+</ol>
+<figure class="shot">
+<img src="assets/img/shots/03-tao-mau-phieu.png" alt="Form tạo mẫu phiếu mới" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Chụp form “Tạo mẫu phiếu mới” với khổ giấy, số câu, số chữ số SBD/mã đề</b><code>assets/img/shots/03-tao-mau-phieu.png</code></div>
+<figcaption>Form tạo mẫu phiếu mới</figcaption>
+</figure>
+<figure class="shot">
+<img src="assets/img/shots/04-xem-truoc-mau-phieu.png" alt="Xem trước mẫu phiếu vừa sinh" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Chụp ảnh xem trước phiếu sau khi bấm “Sinh &amp; xem trước mẫu phiếu”</b><code>assets/img/shots/04-xem-truoc-mau-phieu.png</code></div>
+<figcaption>Xem trước mẫu phiếu vừa sinh</figcaption>
+</figure>
+<div class="callout warn"><b class="t">Khổ A5 có giới hạn</b><p>A5 dùng bố cục riêng, <b>ô tô vẫn to như A4</b>: Phần I tối đa 12 câu, Phần II tối đa 4 câu, Phần III tối đa 6 câu, số báo danh tối đa 8 chữ số, mã đề tối đa 4 chữ số. Chọn A5 thì form tự giảm số câu về mức tối đa; thứ tự khối và khoảng cách khối không áp dụng. Cần nhiều câu hơn → chọn A4.</p></div>
+<div class="two">
+<figure class="fig"><img class="sheet" src="assets/img/sheet-a5-doc.png" alt="Phiếu A5 dọc minh hoạ" width="760" height="1078" loading="lazy"><figcaption>A5 dọc (12/4/6 câu)</figcaption></figure>
+<figure class="fig"><img class="sheet" src="assets/img/sheet-a5-ngang.png" alt="Phiếu A5 ngang minh hoạ" width="1100" height="775" loading="lazy"><figcaption>A5 ngang (12/4/6 câu)</figcaption></figure>
+</div>
+<p><span class="ui">📄 Xem các mẫu phiếu hiện có</span> liệt kê mẫu mặc định và mẫu bạn đã tạo; chọn một mẫu để xem trước, rồi <span class="ui">🖨️ Tải phiếu trống (PDF) của mẫu này</span> nếu chỉ cần file in.</p>
+<p><small>Tạo mẫu phiếu tuỳ chỉnh có thể chỉ có ở một số gói license.</small></p>
+
+<h2 id="ky-thi"><span class="n">4</span>Tạo kỳ thi</h2>
+<ol class="steps">
+<li>Tab <span class="ui">Kỳ thi</span> → <span class="ui">➕ Tạo kỳ thi mới</span>.</li>
+<li>Nhập <b>Tên kỳ thi</b> (ví dụ “Kiểm tra 15 phút - Toán”). Nếu danh sách mẫu phiếu trống, bấm <span class="ui">🔄 Tải danh sách mẫu phiếu</span>, rồi chọn mẫu phiếu dùng cho kỳ thi này.</li>
+<li>Bấm <span class="ui">Tạo kỳ thi</span>.</li>
+<li>Trong <span class="ui">📚 Kỳ thi của tôi</span>, bấm <span class="ui">✅ Dùng kỳ thi này</span> cho kỳ thi muốn làm việc. Các tab Soạn đề, Chấm bài, Kết quả sẽ làm việc với kỳ thi đang chọn.</li>
+</ol>
+<figure class="shot">
+<img src="assets/img/shots/05-tao-ky-thi.png" alt="Tạo kỳ thi và chọn Dùng kỳ thi này" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Chụp danh sách “Kỳ thi của tôi” với nút “Dùng kỳ thi này”</b><code>assets/img/shots/05-tao-ky-thi.png</code></div>
+<figcaption>Tạo kỳ thi và chọn Dùng kỳ thi này</figcaption>
+</figure>
+<p>Trước khi chấm, bắt buộc chọn một kỳ thi; nếu chưa, tab Chấm bài sẽ nhắc bạn quay lại tab Kỳ thi.</p>
+
+<h2 id="soan-de"><span class="n">5</span>Soạn đề &amp; nhập đáp án</h2>
+<p>Tab <span class="ui">Soạn đề</span> → <span class="ui">📋 Xem &amp; sửa đề hiện tại</span> cho thấy <b>mẫu phiếu đang dùng</b>, các <b>mã đề</b> và <b>đáp án đúng</b> của kỳ thi. Một kỳ thi có thể có nhiều mã đề (ví dụ 101, 102 — muốn sinh nhiều mã từ một đề gốc, xem <a href="#tron-de">mục 7 Trộn đề</a>); thí sinh tô mã đề ở bảng “8. Mã đề thi” trên phiếu và app tự chọn đáp án theo mã đó khi chấm.</p>
+<ul>
+<li><span class="ui">➕ Thêm mã đề mới</span> để tạo thêm mã đề.</li>
+<li><span class="ui">👁️ Xem đáp án mã đề này</span> để xem/sửa đáp án của mã đang chọn.</li>
+<li><span class="ui">🖼️ Xuất ảnh/PDF đáp án trực quan</span> (có <span class="ui">💾 Tải ảnh PNG</span> và <span class="ui">📄 Xuất PDF</span>) để giáo viên đối chiếu nhanh.</li>
+</ul>
+<h3>Quy ước ghi đáp án</h3>
+<table class="tbl"><tr><th>Phần</th><th>Cách ghi</th><th>Ví dụ</th></tr>
+<tr><td>I</td><td>Một chữ cái đáp án đúng</td><td><code>A</code></td></tr>
+<tr><td>II</td><td>4 giá trị Đ/S theo thứ tự ý a, b, c, d</td><td><code>Đ,S,Đ,S</code></td></tr>
+<tr><td>III</td><td>Một số, tối đa 4 ký tự kể cả dấu <code>-</code> và dấu phẩy (vì phiếu chỉ có 4 ô)</td><td><code>12</code> · <code>-3,5</code> · <code>0,67</code></td></tr></table>
+<p>Với Phần III, gõ dấu chấm hay dấu phẩy đều được — app đổi về dạng chuẩn và so khớp theo giá trị số. Nhập chữ hoặc quá 4 ký tự sẽ bị báo lỗi.</p>
+<figure class="shot">
+<img src="assets/img/shots/06-soan-de-dap-an.png" alt="Màn hình Xem và sửa đề hiện tại với các mã đề và đáp án" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Chụp khối “Xem &amp; sửa đề hiện tại” có danh sách mã đề và cột đáp án</b><code>assets/img/shots/06-soan-de-dap-an.png</code></div>
+<figcaption>Màn hình Xem và sửa đề hiện tại với các mã đề và đáp án</figcaption>
+</figure>
+<h3>Ba cách nhập đáp án</h3>
+<div class="grid">
+<div class="card"><h4>Gõ tay từng câu</h4><p>Chọn đáp án từng câu rồi bấm <span class="ui">💾 Lưu các đáp án đã chọn vào mã đề đang xem</span>.</p></div>
+<div class="card"><h4>Nhập hàng loạt từ Excel/CSV</h4><p><span class="ui">📥 Lấy mẫu đáp án Excel</span> (tệp có sẵn số dòng đúng với mẫu phiếu) → điền → <span class="ui">📤 Nhập đáp án từ file</span>.</p></div>
+<div class="card"><h4>Quét một phiếu mẫu đã tô</h4><p>Tô sẵn một phiếu đáp án đúng, rồi dùng <span class="ui">📷 Nhập đáp án bằng quét ảnh phiếu mẫu</span>.</p></div>
+</div>
+<figure class="shot">
+<img src="assets/img/shots/07-nhap-dap-an-excel.png" alt="Nhập đáp án hàng loạt từ Excel/CSV" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Chụp khối “Nhập đáp án hàng loạt từ Excel/CSV” với nút Lấy mẫu và Nhập từ file</b><code>assets/img/shots/07-nhap-dap-an-excel.png</code></div>
+<figcaption>Nhập đáp án hàng loạt từ Excel/CSV</figcaption>
+</figure>
+<h4>Chi tiết cách quét phiếu mẫu</h4>
+<ol class="steps">
+<li>In phiếu của <b>đúng mẫu phiếu</b> kỳ thi này và tô các đáp án đúng. SBD và mã đề trên phiếu mẫu <b>không quan trọng</b>, chỉ cần đúng các ô câu hỏi.</li>
+<li>Chọn mã đề cần điền, bấm <span class="ui">📷 Chụp ảnh</span> (hoặc chọn ảnh có sẵn trong máy), rồi <span class="ui">🔍 Quét &amp; nhận diện đáp án</span>.</li>
+<li>Kiểm tra kết quả. <b>Câu nào đọc không rõ</b> (tô mờ, tô 2 đáp án, không đọc được) <b>không tự áp dụng</b>: bạn phải xem lại và xác nhận hoặc sửa tay trước khi lưu.</li>
+<li>Bấm <span class="ui">💾 Lưu các đáp án đã chọn vào mã đề đang xem</span>.</li>
+</ol>
+<div class="callout tip"><b class="t">Mẹo</b><p>Đối chiếu lại bằng ảnh/PDF đáp án trực quan sau khi nhập: một đáp án sai trong khoá sẽ làm sai điểm của cả lớp.</p></div>
+<div class="callout"><b class="t">Có sẵn câu hỏi và muốn lập đề nhanh?</b><p>Ba cách nhập đáp án ở trên phù hợp khi bạn đã có đề. Nếu bạn soạn đề từ <b>kho câu hỏi</b> (có nội dung câu, phương án, công thức, hình), hãy dùng <a href="#ngan-hang">Ngân hàng câu hỏi (mục 6)</a>: nhặt câu → đưa vào mã đề → <a href="#tron-de">trộn đề (mục 7)</a>; đáp án được điền sẵn theo từng mã đề.</p></div>
+
+<h2 id="ngan-hang"><span class="n">6</span>Ngân hàng câu hỏi (Excel + LaTeX + hình)</h2>
+<p>Ngân hàng câu hỏi là <b>kho câu hỏi lưu ngay trong điện thoại</b>. Mỗi câu lưu đủ nội dung (câu dẫn, các phương án, đáp án đúng, lời giải) và phân loại (môn · khối · chủ đề · mức độ), kèm một <b>mã câu</b> do app tự cấp. Từ kho này bạn có thể <b>nhặt câu để lập đề</b>, <b>trộn thành nhiều mã đề</b> (mục <a href="#tron-de">7</a>) hoặc <b>xuất ra Excel/LaTeX</b> để in.</p>
+<p>Vào tab <span class="ui">Soạn đề</span> → khung <span class="ui">📖 Ngân hàng câu hỏi</span> (khung được thu gọn sẵn, bấm tiêu đề để mở). Khung này chỉ hiện khi bạn đã bấm <span class="ui">✅ Dùng kỳ thi này</span> ở tab Kỳ thi.</p>
+<figure class="fig"><img src="assets/img/flow-soan-de.svg" alt="Quy trình soạn đề từ ngân hàng câu hỏi: nạp, kiểm tra, nhặt câu, mã đề gốc, trộn đề, chấm hoặc xuất" width="1000" height="200" loading="lazy"><figcaption>Quy trình soạn đề từ ngân hàng câu hỏi (mục 6 và 7)</figcaption></figure>
+
+<h3>6.1 Một câu hỏi gồm những gì?</h3>
+<table class="tbl"><tr><th>Loại câu</th><th>Nội dung lưu</th><th>Đáp án</th></tr>
+<tr><td><b>Phần I</b> — nhiều lựa chọn</td><td>Câu dẫn + phương án A, B, C, D (E tuỳ chọn)</td><td>Một chữ cái <code>A</code>–<code>E</code></td></tr>
+<tr><td><b>Phần II</b> — Đúng/Sai</td><td>Câu dẫn + 4 ý a, b, c, d</td><td>4 giá trị Đúng/Sai theo thứ tự a→d</td></tr>
+<tr><td><b>Phần III</b> — trả lời ngắn</td><td>Câu dẫn</td><td>Một số, tối đa 4 ký tự (kể cả dấu <code>-</code> và <code>,</code>)</td></tr></table>
+<ul>
+<li><b>Công thức</b> viết bằng LaTeX trong <code>$...$</code> (hoặc <code>$$...$$</code>, <code>\( \)</code>, <code>\[ \]</code>), ví dụ <code>$\dfrac{a}{\sin A}=2R$</code>. App hiển thị công thức khi xem câu.</li>
+<li><b>Hình</b> được lưu riêng trong <b>kho hình</b> và gắn vào câu bằng thẻ <code>[[img:ten-hinh.png]]</code>. Hình được app tự nén (tối đa khoảng 1000 px; mỗi hình không quá khoảng 1,5 MB).</li>
+</ul>
+
+<h3>6.2 Mã câu hỏi</h3>
+<p>Mỗi câu có một mã theo quy tắc <code>MON.LOP.CD.PHAN.MUC.STT</code>, ví dụ <code>T.12.05.I.3.0007</code>.</p>
+<figure class="fig"><img src="assets/img/ma-cau.svg" alt="Cấu trúc mã câu hỏi gồm môn, khối, chủ đề, phần, mức độ và số thứ tự" width="1000" height="300" loading="lazy"><figcaption>Cấu trúc mã câu hỏi</figcaption></figure>
+<table class="tbl"><tr><th>Thành phần</th><th>Ý nghĩa</th></tr>
+<tr><td><code>MON</code></td><td>Mã môn 1–4 chữ in hoa: <code>T</code> Toán, <code>L</code> Vật lí, <code>H</code> Hoá học, <code>SH</code> Sinh học, <code>V</code> Ngữ văn, <code>A</code> Tiếng Anh, <code>LS</code>, <code>DL</code>, <code>TIN</code>, <code>GD</code>, <code>CN</code>, <code>KHTN</code> (thêm môn mới trong Danh mục)</td></tr>
+<tr><td><code>LOP</code></td><td>Khối, 2 chữ số (<code>10</code>, <code>11</code>, <code>12</code>); <code>00</code> = không ghi khối</td></tr>
+<tr><td><code>CD</code></td><td>Mã chủ đề, 2 chữ số, theo danh mục của (môn, khối): <code>01</code>…<code>89</code>; <code>99</code> = chưa phân loại</td></tr>
+<tr><td><code>PHAN</code></td><td><code>I</code> trắc nghiệm · <code>II</code> đúng/sai · <code>III</code> trả lời ngắn</td></tr>
+<tr><td><code>MUC</code></td><td><code>1</code> Nhận biết · <code>2</code> Thông hiểu · <code>3</code> Vận dụng · <code>4</code> Vận dụng cao · <code>0</code> chưa phân mức</td></tr>
+<tr><td><code>STT</code></td><td>Số thứ tự 4 chữ số trong cùng nhóm <code>MON.LOP.CD.PHAN.MUC</code>, <b>app tự cấp</b> (số lớn nhất đang có + 1)</td></tr></table>
+<ul>
+<li><b>Mặc định là tự động:</b> bạn chọn Môn/Khối/Chủ đề/Mức độ từ danh sách, app sinh mã. Trong file Excel, nên để trống cột <code>Ma_cau</code>.</li>
+<li><b>Nhập mã tay vẫn có quy tắc:</b> mã phải đúng định dạng, <b>khớp</b> các trường phân loại của câu và không trùng mã khác; nếu không, app báo lỗi, chỉ ra chỗ lệch và gợi ý mã đúng.</li>
+<li>Đổi phân loại thì mã đổi theo (app báo trước). Nạp lại một mã cũ từ Excel (cột <code>Ma_cau</code>) sẽ <b>cập nhật</b> câu đó, không tạo câu trùng.</li>
+<li>Câu cũ chưa có mã chuẩn: bấm <span class="ui">🔢 Cấp mã chuẩn cho câu chưa có</span>. Câu có môn không nằm trong danh mục bị bỏ qua và app nêu lý do, không gán bừa.</li>
+</ul>
+
+<h3>6.3 Danh mục môn · chủ đề · mức độ</h3>
+<p>Bấm <span class="ui">👁️ Xem danh mục &amp; quy tắc mã</span> để xem và chỉnh danh mục (lưu trên máy của bạn): thêm, đổi tên, xoá chủ đề (mã chủ đề tự cấp), <span class="ui">➕ Thêm môn</span>, <span class="ui">📤 Xuất danh mục (Excel)</span> / nạp lại sheet <code>DanhMuc</code> (cột <code>Ma_mon, Ten_mon, Khoi, Ma_chu_de, Ten_chu_de</code>), <span class="ui">↩️ Khôi phục mặc định</span>.</p>
+<div class="callout warn"><b class="t">Danh mục mặc định chỉ là bản mẫu</b><p>Mặc định chỉ có <b>Toán 10–12</b>, xếp theo thứ tự chương SGK (kiểu chương trình Kết nối tri thức). Hãy đối chiếu với phân phối chương trình của trường và sửa ngay trong app. Các môn khác chưa có chủ đề: thêm tay hoặc nạp từ Excel.</p></div>
+<figure class="shot">
+<img src="assets/img/shots/18-ngan-hang-danh-muc-ma-cau.png" alt="Danh mục môn, chủ đề và quy tắc mã câu" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Mở “📖 Ngân hàng câu hỏi” → bấm “👁️ Xem danh mục &amp; quy tắc mã”; chụp khung quy tắc mã và bảng chủ đề của Toán 12</b><code>assets/img/shots/18-ngan-hang-danh-muc-ma-cau.png</code></div>
+<figcaption>Danh mục và quy tắc mã câu</figcaption>
+</figure>
+
+<h3>6.4 Nạp câu hỏi từ Excel/CSV (kèm hình)</h3>
+<ol class="steps">
+<li>Bấm <span class="ui">📥 Tải mẫu Excel</span>. Tệp mẫu có sẵn 4 câu ví dụ và một sheet hướng dẫn.</li>
+<li>Điền vào sheet <code>CauHoi</code> (mỗi dòng một câu). Cột <code>Ma_cau</code> nên để trống.</li>
+<li>Chọn <b>một lần</b>: tệp Excel/CSV <b>cùng các tệp hình</b>, hoặc một tệp <b>.zip</b> chứa Excel và thư mục hình.</li>
+<li>Tuỳ chọn: nhập <i>Môn mặc định</i>/<i>Khối mặc định</i> (dùng khi ô <code>Mon</code>/<code>Khoi</code> trống); giữ dấu tick <span class="ui">Bỏ qua câu trùng nội dung</span> nếu không muốn lưu câu đã có.</li>
+<li>Bấm <span class="ui">🔍 Đọc &amp; kiểm tra</span>. Lỗi được báo <b>đúng số dòng trong Excel</b>; câu lỗi bị bỏ qua; thiếu hình chỉ cảnh báo. Có nút <span class="ui">🙈 Ẩn xem trước</span> để thu gọn bảng.</li>
+<li>Bấm <span class="ui">💾 Lưu vào ngân hàng</span>, hoặc <span class="ui">💾 Lưu + đưa luôn vào mã đề đang xem</span> để đưa thẳng các câu vào mã đề (câu trùng sẽ dùng lại câu đã có).</li>
+</ol>
+<figure class="shot">
+<img src="assets/img/shots/16-ngan-hang-nap-excel.png" alt="Nạp câu hỏi từ Excel kèm hình" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Mở “📖 Ngân hàng câu hỏi”; chụp mục “① Nạp câu hỏi từ Excel/CSV (kèm hình)” sau khi bấm “🔍 Đọc &amp; kiểm tra” (thấy bảng xem trước có cả câu hợp lệ và câu báo lỗi)</b><code>assets/img/shots/16-ngan-hang-nap-excel.png</code></div>
+<figcaption>Nạp câu hỏi từ Excel/CSV và kiểm tra trước khi lưu</figcaption>
+</figure>
+<h4>Các cột của sheet <code>CauHoi</code></h4>
+<table class="tbl"><tr><th>Cột</th><th>Nội dung</th></tr>
+<tr><td><code>Loai</code></td><td>Loại câu: Phần I / II / III</td></tr>
+<tr><td><code>Ma_cau</code></td><td>Để trống để app tự cấp. Trùng một mã đã có → <b>cập nhật</b> câu đó</td></tr>
+<tr><td><code>Mon</code>, <code>Khoi</code>, <code>Chu_de</code>, <code>Muc_do</code></td><td>Phân loại. <code>Chu_de</code> nhận <b>mã</b> (<code>05</code>, <code>05 - Hàm số</code>) hoặc <b>tên</b> (không phân biệt dấu); gõ tắt chỉ khớp một chủ đề thì được nhận kèm cảnh báo; không khớp → lỗi kèm gợi ý “gần giống”. <code>Muc_do</code> nhận 1–4, <code>NB/TH/VD/VDC</code> hoặc tên mức</td></tr>
+<tr><td><code>Cau_hoi</code>, <code>Hinh</code></td><td>Câu dẫn (có thể chứa <code>$LaTeX$</code>), tên tệp hình</td></tr>
+<tr><td><code>A</code>…<code>E</code></td><td>Phương án Phần I (cần đủ A–D; E tuỳ chọn). Với Phần II có thể dùng A–D làm 4 ý</td></tr>
+<tr><td><code>Y_a</code>…<code>Y_d</code></td><td>4 ý của Phần II</td></tr>
+<tr><td><code>Dap_an</code>, <code>Diem</code>, <code>Loi_giai</code></td><td>Đáp án, điểm (tuỳ chọn), lời giải (tuỳ chọn)</td></tr></table>
+<p>Cách ghi <code>Dap_an</code>: Phần I một chữ <code>A</code>–<code>E</code>; Phần II bốn giá trị như <code>Đ,S,Đ,S</code>, <code>ĐSĐS</code>, <code>Đúng Sai Đúng Sai</code> hoặc <code>T F T F</code>; Phần III một số tối đa 4 ký tự (dấu chấm tự đổi thành dấu phẩy). Tiêu đề cột đọc <b>không phân biệt dấu và hoa/thường</b> và nhận một số tên đồng nghĩa.</p>
+<div class="callout"><b class="t">Không nhập trực tiếp từ Word/PDF</b><p>Ngân hàng nhận <b>Excel/CSV/ZIP</b>, chưa đọc trực tiếp .docx hay .pdf. Công thức MathType hoặc ảnh nhúng trong Word cần chuyển sang LaTeX hoặc lưu thành tệp hình riêng (gắn bằng <code>[[img:...]]</code>).</p></div>
+
+<h3>6.5 Xem, lọc và quản lý câu đã lưu</h3>
+<p>Mục <b>② Danh sách câu đã lưu</b> (bấm <span class="ui">🔄 Tải danh sách</span>; <span class="ui">🙈 Ẩn danh sách</span> để thu gọn):</p>
+<ul>
+<li><b>Lọc</b> bằng danh sách chọn lấy từ chính dữ liệu của bạn (môn → khối → chủ đề), cộng <i>Loại</i>, <i>Mức độ</i>, <i>Trạng thái</i> (chưa dùng · đã dùng · thiếu nội dung phương án · thiếu hình · chưa có mã chuẩn · trùng nội dung) và ô tìm chữ/mã. Có thể sắp xếp theo mã, mới nhất, dùng nhiều/ít, mức độ; có thống kê số câu I/II/III và theo mức của các câu đã chọn.</li>
+<li><b>Từng câu:</b> xem chi tiết, sửa, <span class="ui">⧉</span> nhân bản, xoá.</li>
+<li><b>Hàng loạt</b> (tick chọn nhiều câu, hoặc <span class="ui">Chọn tất cả (đang lọc)</span>): <span class="ui">➕ Đưa câu đã chọn vào mã đề đang xem</span> · <span class="ui">📊 Xuất đã chọn (Excel)</span> · <span class="ui">📦 Xuất đã chọn (LaTeX .zip)</span> (có tick <i>kèm đáp án</i>, <i>kèm lời giải</i>) · <span class="ui">🏷️ Phân loại lại…</span> (đổi môn/khối/chủ đề/mức, mã cấp lại) · <span class="ui">🗑 Xoá đã chọn</span>.</li>
+</ul>
+<figure class="shot">
+<img src="assets/img/shots/17-ngan-hang-danh-sach-loc.png" alt="Danh sách câu đã lưu và bộ lọc" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Mục “② Danh sách câu đã lưu” sau khi bấm “🔄 Tải danh sách”: thấy các ô lọc (môn, khối, chủ đề, mức độ…), vài câu đang được tick và hàng nút thao tác hàng loạt</b><code>assets/img/shots/17-ngan-hang-danh-sach-loc.png</code></div>
+<figcaption>Danh sách câu đã lưu, bộ lọc và thao tác hàng loạt</figcaption>
+</figure>
+
+<h3>6.6 Nhặt câu để lập đề</h3>
+<p>Mục <b>③ Nhặt câu để tạo đề</b> chỉ nhặt trong phạm vi <b>bộ lọc đang chọn</b>, ưu tiên các câu <b>ít được dùng</b>, báo rõ khi thiếu câu, và <b>tick sẵn</b> kết quả để bạn xem lại trước khi đưa vào mã đề. Ba cách chọn:</p>
+<div class="grid">
+<div class="card"><h4>Chọn tay</h4><p>Tick từng câu trong danh sách, rồi <span class="ui">➕ Đưa câu đã chọn vào mã đề đang xem</span>.</p></div>
+<div class="card"><h4>Nhặt nhanh</h4><p>Nhập số câu Phần I/II/III cần lấy rồi bấm <span class="ui">Nhặt</span>: chọn ngẫu nhiên trong phạm vi bộ lọc.</p></div>
+<div class="card"><h4>Theo ma trận</h4><p>Mỗi dòng: <b>Phần × chủ đề × mức độ × số câu</b>; <span class="ui">➕ Thêm dòng</span> rồi <span class="ui">🎲 Nhặt theo ma trận</span>. Không trùng câu giữa các dòng; báo thiếu theo từng dòng.</p></div>
+</div>
+<figure class="shot">
+<img src="assets/img/shots/19-ngan-hang-nhat-ma-tran.png" alt="Nhặt câu theo ma trận" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Mục “③ Nhặt câu để tạo đề” với 2–3 dòng ma trận (Phần, chủ đề, mức độ, số câu) và kết quả nhặt</b><code>assets/img/shots/19-ngan-hang-nhat-ma-tran.png</code></div>
+<figcaption>Nhặt câu theo ma trận đề</figcaption>
+</figure>
+
+<h3>6.7 Thêm hoặc sửa một câu bằng tay</h3>
+<p>Mục <b>④ Thêm / sửa một câu</b>: bấm <span class="ui">➕ Thêm câu mới bằng tay</span> (hoặc chọn sửa một câu có sẵn). Chọn loại, Môn/Khối/Chủ đề/Mức độ (mã tự sinh; tick <i>nhập mã tay</i> nếu cần), gõ <b>câu dẫn</b> (công thức dạng <code>$x^2+1$</code>; <span class="ui">🖼️ Chèn hình…</span> để gắn hình), điền phương án A–E hoặc ý a–d, <b>Đáp án</b>, <b>Điểm</b> và <b>Lời giải</b> (tuỳ chọn), rồi <span class="ui">💾 Lưu vào ngân hàng</span>.</p>
+<figure class="shot">
+<img src="assets/img/shots/20-ngan-hang-trinh-sua-cau.png" alt="Trình sửa một câu hỏi" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Mục “④ Thêm / sửa một câu” đang mở với một câu Phần I có công thức LaTeX</b><code>assets/img/shots/20-ngan-hang-trinh-sua-cau.png</code></div>
+<figcaption>Trình soạn một câu hỏi</figcaption>
+</figure>
+<p><span class="ui">👁️ Xem kho hình</span> liệt kê các hình đã nạp (tên hình được chuẩn hoá: lấy tên tệp, chữ thường, khoảng trắng đổi thành <code>_</code>).</p>
+<div class="callout warn"><b class="t">Sao lưu ngân hàng câu hỏi</b><p>Hiện <b>ngân hàng, kho hình và danh mục chưa nằm trong sao lưu Google Drive</b> (sao lưu hiện theo kỳ thi). Hãy bấm <span class="ui">📤 Xuất cả ngân hàng ra Excel</span> định kỳ để có bản dự phòng; <b>hình nằm trong kho, không nằm trong tệp Excel</b> nên cần giữ riêng bộ hình gốc.</p></div>
+
+<h2 id="tron-de"><span class="n">7</span>Trộn đề &amp; xuất đề</h2>
+<p>Từ <b>một mã đề gốc</b> đã có đủ nội dung câu hỏi, ExamMark sinh ra nhiều mã đề mới (ví dụ 102, 103, 104…) với thứ tự câu và vị trí phương án khác nhau, rồi <b>ghi lại đáp án đã trộn</b> vào từng mã đề của kỳ thi — máy chấm nhận ngay các mã mới, không phải nhập đáp án lại.</p>
+<figure class="fig"><img src="assets/img/tron-de.svg" alt="Ví dụ trộn đề từ mã 101 sang mã 102: đảo thứ tự câu, đảo phương án, ghi lại đáp án đúng mới" width="1000" height="445" loading="lazy"><figcaption>Ví dụ trộn: thứ tự câu và vị trí phương án đổi, đáp án đúng được ghi lại theo vị trí mới</figcaption></figure>
+
+<h3>7.1 Các bước trộn đề</h3>
+<ol class="steps">
+<li>Hoàn thiện <b>mã đề gốc</b>: đưa câu từ ngân hàng vào (mục <a href="#ngan-hang">6.6</a>). Trong khung <span class="ui">📋 Xem &amp; sửa đề hiện tại</span>, chọn mã đề gốc ở danh sách mã đề (mã đề đang xem là mã sẽ được dùng để trộn).</li>
+<li>Mở khung <span class="ui">🔀 Trộn đề &amp; xuất đề — sinh mã đề mới từ mã đề đang xem</span> và đặt:
+<ul>
+<li><b>Số mã đề</b> cần sinh (1–20; mặc định 4);</li>
+<li><b>Mã đề đầu</b>, ví dụ <code>102</code> (các mã sau tăng dần);</li>
+<li><b>Seed</b> (tuỳ chọn): để trống = ngẫu nhiên; dùng lại cùng seed sẽ trộn <b>y hệt</b> lần trước.</li>
+</ul></li>
+<li>Chọn các kiểu đảo: <span class="ui">Đảo thứ tự câu</span>, <span class="ui">Đảo phương án (Phần I)</span>, <span class="ui">Đảo ý a–d (Phần II)</span> (mặc định đều bật).</li>
+<li>Bấm <span class="ui">🔀 Xem thử</span> để xem <b>bảng đáp án gộp</b> của các mã đề và các cảnh báo. Có nút <span class="ui">🙈 Ẩn bảng xem thử</span>.</li>
+<li>Hài lòng thì bấm <span class="ui">💾 Lưu các mã đề vào kỳ thi</span>. Các mã đề mới xuất hiện trong danh sách mã đề và dùng được ngay khi chấm.</li>
+</ol>
+<figure class="shot">
+<img src="assets/img/shots/21-tron-de-xem-thu.png" alt="Trộn đề và bảng xem thử" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Khung “🔀 Trộn đề &amp; xuất đề” sau khi bấm “🔀 Xem thử” (thấy số mã đề, mã đề đầu, các tuỳ chọn đảo và bảng đáp án gộp)</b><code>assets/img/shots/21-tron-de-xem-thu.png</code></div>
+<figcaption>Trộn đề: thiết lập và bảng xem thử</figcaption>
+</figure>
+<div class="callout tip"><b class="t">Mã đề phải vừa với phiếu</b><p>Thí sinh tô mã đề ở bảng “Mã đề thi” trên phiếu, nên số chữ số của mã đề (ví dụ 102 là 3 chữ số) không được vượt số cột mã đề của <a href="#mau-phieu">mẫu phiếu</a> đang dùng.</p></div>
+
+<h3>7.2 Quy tắc trộn</h3>
+<table class="tbl"><tr><th>Phần</th><th>App làm gì</th></tr>
+<tr><td>Phần I</td><td>Đảo thứ tự câu; đảo phương án A–D (E) và <b>ghi lại chữ cái đúng mới</b></td></tr>
+<tr><td>Phần II</td><td>Đảo thứ tự câu; đảo 4 ý a–d, kèm đáp án Đúng/Sai tương ứng</td></tr>
+<tr><td>Phần III</td><td>Đảo thứ tự câu; <b>giữ nguyên đáp số</b></td></tr></table>
+<ul>
+<li><b>Không đảo</b> những phương án phụ thuộc vị trí (như “Cả A và B đều đúng”, “Tất cả các đáp án trên”, “Không có đáp án nào đúng”) và những ý có nhắc tới ý khác. App cảnh báo cụ thể câu nào được giữ nguyên.</li>
+<li>Câu <b>chưa lưu nội dung phương án</b> (chỉ có đáp án chữ, ví dụ nhập từ phiếu mẫu) thì chỉ đảo được thứ tự câu.</li>
+<li>Các mã đề sinh ra luôn <b>khác nhau và khác đề gốc</b> (app thử lại tối đa 25 lần nếu trùng).</li>
+<li><span class="ui">⧉ Nhân bản mã đề đang xem</span>: tạo mã đề mới y nguyên câu, phương án và đáp án — tiện để sửa nhỏ thành một mã khác.</li>
+</ul>
+
+<h3>7.3 Xem và xuất các mã đề</h3>
+<p>Mục <b>Các mã đề của kỳ thi &amp; xuất để soạn/in bên ngoài</b> hiển thị số câu từng phần của mỗi mã đề và có các nút:</p>
+<ul>
+<li><span class="ui">👁️ Xem nội dung mã đề đang xem</span> (có nút ẩn lại);</li>
+<li><span class="ui">📊 Excel (đáp án + nội dung)</span>: sheet <code>DapAn</code> (bảng đáp án gộp) và <b>mỗi mã đề một sheet</b> theo đúng mẫu;</li>
+<li><span class="ui">📦 Gói LaTeX (.zip)</span>: gồm <code>de_&lt;mã&gt;.tex</code>, thư mục <code>images/</code> và <code>bang_dap_an.csv</code>; biên dịch bằng <code>pdflatex</code> (gói tiếng Việt T5). Có tick <i>.tex kèm trang đáp án</i> và <i>kèm lời giải</i>.</li>
+</ul>
+<figure class="shot">
+<img src="assets/img/shots/22-tron-de-xuat-de.png" alt="Danh sách mã đề và nút xuất đề" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Mục “Các mã đề của kỳ thi &amp; xuất để soạn/in bên ngoài” với danh sách mã đề (kèm số câu từng phần) và các nút Excel / Gói LaTeX</b><code>assets/img/shots/22-tron-de-xuat-de.png</code></div>
+<figcaption>Danh sách mã đề và xuất đề</figcaption>
+</figure>
+<div class="callout"><b class="t">Giới hạn hiện tại</b><ul style="margin:6px 0 6px 18px"><li>App xuất đề ở dạng <b>Excel và LaTeX</b>; <b>chưa dựng sẵn PDF đề thi</b> trong app (in đề bằng cách biên dịch LaTeX hoặc dán nội dung vào Word).</li><li>Công thức hiển thị bằng KaTeX; một vài lệnh LaTeX hiếm có thể hiển thị khác so với khi biên dịch bằng pdflatex.</li><li>Câu có <b>đoạn dẫn chung cho nhiều câu</b> (nhóm câu phải đi liền nhau) chưa được hỗ trợ.</li><li>Trong app hiện chỉ có <b>thêm, nhân bản và sửa</b> mã đề; chưa có nút xoá mã đề hoặc xoá một câu khỏi mã đề.</li></ul></div>
+
+<h2 id="thi-sinh"><span class="n">8</span>Danh sách thí sinh &amp; mã QR</h2>
+<p>Vẫn trong tab <span class="ui">Soạn đề</span>, mục <span class="ui">🧑‍🎓 Danh sách thí sinh</span>:</p>
+<ul>
+<li><span class="ui">Thêm thí sinh</span> để nhập từng em.</li>
+<li><span class="ui">📥 Tải file mẫu (CSV)</span>, điền, rồi <span class="ui">Import file CSV/Excel</span> để nhập cả lớp.</li>
+<li><span class="ui">🔲 Sinh mã QR cho phiếu trả lời (chống nhầm phiếu)</span>: gán một mã QR cho mỗi thí sinh có trong danh sách, hoặc sinh số phiếu trắng tuỳ ý. Khi chấm, quét mã QR để app biết phiếu thuộc thí sinh nào; nếu SBD đọc từ ảnh không khớp SBD gắn với QR, app cảnh báo để bạn đối chiếu (có thể phiếu bị tráo hoặc SBD bị tô mờ).</li>
+</ul>
+<figure class="shot">
+<img src="assets/img/shots/08-danh-sach-thi-sinh.png" alt="Danh sách thí sinh và nút Import" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Chụp mục “Danh sách thí sinh” với các nút Thêm thí sinh / Tải file mẫu / Import</b><code>assets/img/shots/08-danh-sach-thi-sinh.png</code></div>
+<figcaption>Danh sách thí sinh và nút Import</figcaption>
+</figure>
+<p><small>Mã QR là chức năng hỗ trợ, không bắt buộc: nếu thí sinh tô đúng số báo danh trên phiếu, app vẫn nhận ra thí sinh từ SBD.</small></p>
+
+<h2 id="in-phieu"><span class="n">9</span>In phiếu</h2>
+<ol class="steps">
+<li>Tab <span class="ui">Soạn đề</span> → mục <b>Phiếu trống để in cho thí sinh làm bài thật</b>, nhập <b>số bản</b>.</li>
+<li>Bấm <span class="ui">📄 Tải phiếu trống (PDF)</span>, rồi in từ trình xem PDF.</li>
+</ol>
+<figure class="shot">
+<img src="assets/img/shots/09-tai-phieu-pdf.png" alt="Tải phiếu trống PDF để in" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Chụp mục “Phiếu trống để in…” có ô số bản và nút Tải phiếu trống (PDF)</b><code>assets/img/shots/09-tai-phieu-pdf.png</code></div>
+<figcaption>Tải phiếu trống PDF để in</figcaption>
+</figure>
+<div class="callout warn"><b class="t">Quan trọng khi in</b><ul style="margin:6px 0 6px 18px"><li>Chọn tỉ lệ <b>100% / Kích thước thực</b>, <b>không</b> chọn “Vừa trang/Fit to page” hay “Thu nhỏ để vừa” — phiếu bị co sẽ lệch vị trí ô.</li><li>Chọn đúng khổ giấy (A4 hoặc A5) và hướng giấy (dọc/ngang) như mẫu phiếu.</li><li>In rõ nét, tránh chế độ tiết kiệm mực/bản nháp; 4 ô vuông đen ở bốn góc phải in đậm, không bị mờ hay bị cắt mép.</li><li>In thử một tờ, tô và quét thử trước khi in cả lớp.</li></ul></div>
+
+<h2 id="thi-sinh-to"><span class="n">10</span>Hướng dẫn thí sinh tô phiếu</h2>
+<p>Bạn có thể in nguyên khung dưới đây dán lên bảng hoặc đọc cho thí sinh:</p>
+<div class="card">
+<ul style="margin:6px 0 6px 18px">
+<li>Dùng <b>bút bi xanh/đen</b> hoặc <b>bút chì đen mềm (2B)</b>; tô <b>kín</b> toàn bộ ô tròn.</li>
+<li>Mỗi câu <b>chỉ tô một ô</b> (riêng Phần II: mỗi ý a, b, c, d tô một trong hai ô Đúng/Sai).</li>
+<li>Phần III: tô dấu <b>-</b> nếu là số âm, dấu <b>,</b> nếu là số thập phân, rồi tô từng chữ số ở đúng cột.</li>
+<li>Tô <b>số báo danh</b> và <b>mã đề</b> chính xác, mỗi cột một chữ số.</li>
+<li>Muốn sửa: <b>tẩy sạch</b> ô cũ trước khi tô ô mới. Không dùng bút xoá nước làm loang phiếu.</li>
+<li>Không gấp, nhàu, rách phiếu; <b>không viết hay vẽ vào 4 ô vuông đen ở góc</b>.</li>
+</ul></div>
+
+<h2 id="cham-bai"><span class="n">11</span>Chấm bài bằng camera</h2>
+<ol class="steps">
+<li>Bảo đảm đã bấm <span class="ui">✅ Dùng kỳ thi này</span> (mục 4). Mở tab <span class="ui">📸 Chấm bài</span>.</li>
+<li>Lần đầu, chờ thông báo <i>Đang tải thư viện xử lý ảnh (OpenCV.js)</i> — có thể mất 10–30 giây; các lần sau nhanh hơn.</li>
+<li>Bấm <span class="ui">📷 Chụp ảnh</span> (hoặc chọn ảnh có sẵn). Đặt phiếu phẳng, <b>canh 4 góc phiếu vào 4 ô vuông</b> hiển thị trên màn hình (<span class="ui">🎯 Canh 4 góc phiếu vào 4 ô vuông</span>).</li>
+<li>Xem <b>Kết quả nhận dạng</b>: số báo danh, mã đề, điểm tạm tính và danh sách <b>các câu cần xem lại</b>.</li>
+<li>Nếu hiện <b>“Không xác định được đúng mã đề để chấm”</b>: chọn đúng mã đề ở danh sách rồi bấm <span class="ui">✔ Áp dụng</span> — chưa chọn thì không thể xác nhận chấm.</li>
+<li>Nếu hiện <b>“SBD đọc từ ảnh không khớp SBD gắn với mã QR”</b>: đối chiếu tên trên phiếu với thí sinh, rồi chọn <span class="ui">✔ Tôi đã kiểm tra, vẫn tiếp tục</span> hoặc chọn lại đúng thí sinh.</li>
+<li>Kiểm tra các câu được gắn cờ, rồi bấm <span class="ui">✅ Xác nhận (offline)</span>. Điểm được tính ngay trên máy và bài được lưu. <span class="ui">💾 Lưu ảnh</span> giữ lại ảnh phiếu làm bằng chứng.</li>
+</ol>
+<figure class="shot">
+<img src="assets/img/shots/10-cham-bai-chup.png" alt="Tab Chấm bài với khung canh 4 góc" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Chụp màn hình camera trong tab Chấm bài khi đang canh 4 góc phiếu</b><code>assets/img/shots/10-cham-bai-chup.png</code></div>
+<figcaption>Tab Chấm bài với khung canh 4 góc</figcaption>
+</figure>
+<figure class="fig"><img src="assets/img/capture.svg" alt="So sánh cách chụp đúng và sai: đủ 4 góc, phẳng, không bóng đổ" width="1000" height="420" loading="lazy"><figcaption>Cách chụp đúng và sai</figcaption></figure>
+<figure class="shot">
+<img src="assets/img/shots/11-ket-qua-nhan-dang.png" alt="Kết quả nhận dạng sau khi chụp" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Chụp khối “Kết quả nhận dạng” (SBD, mã đề, điểm, câu cần xem lại)</b><code>assets/img/shots/11-ket-qua-nhan-dang.png</code></div>
+<figcaption>Kết quả nhận dạng sau khi chụp</figcaption>
+</figure>
+<h3>Ý nghĩa các màu trên ảnh kết quả</h3>
+<figure class="fig"><img src="assets/img/states.svg" alt="Chú giải màu: vòng xanh lá là đáp án đúng, ô đỏ tô sai, ô tím tô nhiều đáp án, ô cam tô đúng nhưng nhạt" width="1000" height="330" loading="lazy"><figcaption>Chú giải màu trên ảnh phiếu sau khi chấm</figcaption></figure>
+<p><b>Quy tắc quan trọng:</b> ô <b>không xác định</b> (tô hai đáp án trở lên, đọc không ra) được <b>tạm tính sai</b> và gắn cờ; ô <b>tô nhạt nhưng vẫn đọc được</b> được tính như đã tô và cũng gắn cờ “Xem lại”. Cờ nghĩa là “giáo viên hãy nhìn lại”, không phải kết luận cuối.</p>
+
+<h2 id="xem-lai"><span class="n">12</span>Xem lại &amp; sửa câu mơ hồ</h2>
+<ul>
+<li><span class="ui">🔍 Xem chi tiết &amp; sửa từng câu</span>: bảng chi tiết bài vừa chấm với các cột Câu, Phần, Đáp án, Độ tin cậy, Trạng thái. Sửa những câu bạn thấy máy đọc sai (so với ảnh thật), rồi lưu.</li>
+<li><span class="ui">🔍 Tra cứu &amp; sửa bài đã nộp (bằng chứng chấm)</span>: nhập <b>SBD</b> rồi bấm <span class="ui">Tìm</span> để mở lại bài đã chấm. Nếu phát hiện chấm nhầm sau khi đã nộp, có thể sửa trực tiếp tại đây.</li>
+<li><b>Mọi lần sửa đều được ghi lại</b> (ai sửa, lúc nào, từ đáp án gì sang gì, vì sao), để giải trình với thí sinh khi cần.</li>
+<li>Với <b>kỳ thi nhóm</b>: quản trị nhóm xem và duyệt các bài cần xem lại của giáo viên ở tab <span class="ui">👥 Nhóm</span> (nút <span class="ui">📥 Bài cần review</span> — xem <a href="#ky-thi-nhom">mục 14</a>).</li>
+</ul>
+<figure class="shot">
+<img src="assets/img/shots/12-cau-can-xem-lai.png" alt="Danh sách các câu cần xem lại và sửa" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Chụp danh sách “Các câu cần xem lại” và bảng chi tiết bài chấm</b><code>assets/img/shots/12-cau-can-xem-lai.png</code></div>
+<figcaption>Danh sách các câu cần xem lại và sửa</figcaption>
+</figure>
+<table class="tbl"><tr><th>Tình huống</th><th>App xử lý</th><th>Bạn nên</th></tr>
+<tr><td>Ô tô rõ, một đáp án</td><td>Chấm bình thường</td><td>Không cần làm gì</td></tr>
+<tr><td>Ô tô nhạt nhưng đọc được</td><td>Tính điểm + cờ “Xem lại”</td><td>Nhìn ảnh, xác nhận hoặc sửa</td></tr>
+<tr><td>Tô 2 đáp án trở lên</td><td>Chưa xác định → tạm tính sai + cờ</td><td>Quyết định theo quy chế thi của bạn rồi sửa</td></tr>
+<tr><td>Bỏ trống</td><td>0 điểm câu đó</td><td>Kiểm tra nhanh ảnh nếu nghi ngờ</td></tr></table>
+
+<h2 id="ket-qua"><span class="n">13</span>Kết quả &amp; xuất tệp</h2>
+<ol class="steps">
+<li>Mở tab <span class="ui">📊 Kết quả</span> (phải đang chọn một kỳ thi).</li>
+<li>Bấm <span class="ui">📊 Xuất Excel</span> hoặc <span class="ui">📄 Xuất CSV</span> để lấy bảng điểm.</li>
+<li>Tệp được lưu trên máy (thường trong thư mục <b>Tài liệu/ExamMark</b>); mở bằng ứng dụng Tệp hoặc chia sẻ qua Zalo/email như tệp bình thường.</li>
+</ol>
+<figure class="shot">
+<img src="assets/img/shots/13-xuat-ket-qua.png" alt="Tab Kết quả với nút Xuất Excel và Xuất CSV" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Chụp tab “Kết quả” có nút Xuất Excel / Xuất CSV</b><code>assets/img/shots/13-xuat-ket-qua.png</code></div>
+<figcaption>Tab Kết quả với nút Xuất Excel và Xuất CSV</figcaption>
+</figure>
+<h3>Thống kê kỳ thi</h3>
+<p>Trong tab <span class="ui">📊 Kết quả</span>, thẻ <span class="ui">📈 Thống kê kỳ thi</span> tổng hợp điểm của kỳ thi đang chọn:</p>
+<ol class="steps">
+<li>Nhập <b>Điểm đạt từ</b> (mặc định 5).</li>
+<li>Chọn <b>Phạm vi</b>: <i>Cả kỳ thi (gộp mọi mã đề)</i> hoặc <i>Chỉ mã đề đang chọn (có từng câu)</i>.</li>
+<li>Bấm <span class="ui">📈 Xem thống kê</span>: điểm trung bình/cao nhất/thấp nhất, tỉ lệ đạt, thống kê theo lớp và <b>độ chính xác từng câu</b> — câu có tỉ lệ làm đúng thấp được tô đỏ để bạn rà lại (đề khó hay đáp án sai?).</li>
+</ol>
+<figure class="shot">
+<img src="assets/img/shots/35-thong-ke-ky-thi.png" alt="Thẻ thống kê kỳ thi" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Tab “📊 Kết quả” → thẻ “📈 Thống kê kỳ thi” sau khi bấm “📈 Xem thống kê” (chọn phạm vi “Chỉ mã đề đang chọn” để thấy bảng từng câu có tô đỏ)</b><code>assets/img/shots/35-thong-ke-ky-thi.png</code></div>
+<figcaption>Thống kê kỳ thi</figcaption>
+</figure>
+
+<h2 id="ky-thi-nhom"><span class="n">14</span>Kỳ thi nhóm (tab Nhóm)</h2>
+<p><b>Kỳ thi chung</b> (kỳ thi nhóm) dành cho trường/tổ bộ môn dùng <b>license tổ chức</b>: <b>quản trị nhóm</b> soạn một kỳ thi (đề, mã đề, đáp án, danh sách thí sinh) rồi đẩy lên “Drive chung” của nhóm; nhiều giáo viên tải kỳ thi về, <b>chấm offline trên máy mình</b> và gửi kết quả lên; quản trị nhóm theo dõi tiến độ, duyệt, chốt kỳ thi và lưu biên bản.</p>
+<figure class="fig"><img src="assets/img/ky-thi-nhom.svg" alt="Quy trình kỳ thi nhóm: quản trị nhóm đẩy kỳ thi lên Group Hub, giáo viên tải về chấm và gửi kết quả, quản trị duyệt, chốt và lập biên bản" width="1000" height="450" loading="lazy"><figcaption>Quy trình kỳ thi nhóm</figcaption></figure>
+<div class="callout"><b class="t">Dữ liệu nằm ở đâu?</b><p>Kỳ thi và kết quả nằm trên <b>Group Hub</b>: một bảng tính Google (Drive/Sheet) <b>do chính quản trị nhóm sở hữu</b>. Nhà phát triển không giữ dữ liệu này. <b>Ảnh bài làm không gửi lên Hub</b> — ảnh chấm ở lại máy của giáo viên đã chấm; kết quả gửi lên chỉ gồm điểm, đáp án cuối, cờ “xem lại”, số báo danh và mã đề.</p></div>
+
+<h3>14.1 Ai làm được gì?</h3>
+<table class="tbl"><tr><th>Việc</th><th>Quản trị nhóm</th><th>Giáo viên (trong nhóm con)</th></tr>
+<tr><td>Tạo/ẩn/xoá nhóm con, thêm giáo viên</td><td>✔</td><td>—</td></tr>
+<tr><td>Đẩy kỳ thi; đóng nhận, chốt kỳ thi</td><td>✔</td><td>—</td></tr>
+<tr><td>Tải kỳ thi của nhóm con mình và chấm</td><td>✔</td><td>✔ (chỉ nhóm con được gán; nếu phân công theo lớp thì chỉ lớp được gán)</td></tr>
+<tr><td>Gửi kết quả của chính mình</td><td>✔</td><td>✔</td></tr>
+<tr><td>Xem kết quả của người khác; duyệt; yêu cầu chấm lại; sửa điểm</td><td>✔</td><td>—</td></tr>
+<tr><td>Xin đính chính sau khi kết quả đã duyệt</td><td>—</td><td>✔</td></tr></table>
+<p><small>“Quản trị nhóm” là chủ license tổ chức. Nhà phát triển (quản trị hệ thống) cấp/thu hồi license và gỡ thiết bị nhưng <b>không</b> truy cập dữ liệu kỳ thi của nhóm.</small></p>
+
+<h3>14.2 Dành cho quản trị nhóm</h3>
+<h4>a) Thiết lập Group Hub (làm một lần, khoảng 10 phút)</h4>
+<ol class="steps">
+<li>Mở đường dẫn dạng <code>…/copy</code> mà nhà phát triển gửi → <b>Tạo bản sao</b> bảng tính “ExamMark Hub” vào Drive của nhóm (nên dùng tài khoản Google do nhóm quản lý). Mở bản sao; nếu chưa thấy menu <b>ExamMark Hub</b>, tải lại trang và chờ vài giây.</li>
+<li>Chọn menu <b>ExamMark Hub ▸ ① Cài đặt (nhập mã license)</b>, cấp quyền khi Google hỏi (lần đầu có cảnh báo “ứng dụng chưa được xác minh”: chọn <i>Nâng cao ▸ Đi tới … (không an toàn)</i> — đây là script nằm trong chính bảng tính của bạn) rồi nhập <b>mã license tổ chức</b>.</li>
+<li>Chọn <b>② Triển khai Hub (tạo URL)</b>; hộp thoại hiện URL và nút <b>📋 Sao chép URL</b>. Nếu báo cần bật <i>Google Apps Script API</i>: mở <a href="https://script.google.com/home/usersettings" rel="noopener">script.google.com/home/usersettings</a>, bật rồi chạy lại bước ②.</li>
+<li>Mở ExamMark (tài khoản chủ license tổ chức) → tab <span class="ui">👥 Nhóm</span> → dán URL vào ô <span class="ui">⚙️ Group Hub của nhóm</span> → <span class="ui">Lưu địa chỉ Hub</span>.</li>
+<li>(Tuỳ chọn) menu <b>Kiểm tra tình trạng</b> trong bảng tính: tất cả ✅ là sẵn sàng.</li>
+</ol>
+<div class="callout warn"><b class="t">Lưu ý</b><p>Không chia sẻ thư mục Drive “ExamMark Hub” cho ai khác — Hub là cổng truy cập duy nhất; giáo viên không cần được cấp quyền vào Drive. Nếu license đổi hoặc hết hạn, Hub từ chối truy cập nhưng <b>dữ liệu vẫn nằm trong Drive của bạn</b>.</p></div>
+
+<h4>b) Tạo nhóm con và thêm giáo viên</h4>
+<ol class="steps">
+<li>Tab <span class="ui">👥 Nhóm</span> → ô <i>Tên nhóm con, vd Toán</i> → <span class="ui">+ Tạo</span>. Nên tạo nhóm con <b>theo môn</b> (Toán, Lý, Hoá…).</li>
+<li>Mở nhóm vừa tạo, nhập <b>email giáo viên</b> (cách nhau bằng dấu phẩy hoặc xuống dòng) → <span class="ui">Lưu danh sách giáo viên</span>. Email phải thuộc danh sách thành viên của license tổ chức; một giáo viên có thể thuộc nhiều nhóm con.</li>
+</ol>
+<p>Khi có nhiều nhóm, mỗi nhóm hiện gọn một dòng (số giáo viên, số kỳ thi đang mở); có ô <span class="ui">🔍 Lọc nhóm hoặc email…</span> (khi trên 5 nhóm), nút <span class="ui">Ẩn</span>/<span class="ui">Hiện lại</span> (lưu trữ, khôi phục được) và <span class="ui">🗑 Xoá</span> (chỉ xoá được khi nhóm không còn kỳ thi).</p>
+<figure class="shot">
+<img src="assets/img/shots/23-nhom-quan-tri.png" alt="Tab Nhóm của quản trị nhóm" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Tab “👥 Nhóm” (tài khoản quản trị): thấy thanh “📥 Cần xử lý”, danh sách nhóm con thu gọn và khung “⬆️ Đẩy kỳ thi lên Hub”. Che email giáo viên thật</b><code>assets/img/shots/23-nhom-quan-tri.png</code></div>
+<figcaption>Tab Nhóm — màn hình của quản trị nhóm</figcaption>
+</figure>
+
+<h4>c) Đẩy kỳ thi lên Hub</h4>
+<ol class="steps">
+<li>Soạn kỳ thi như bình thường ở tab Kỳ thi/Soạn đề: đề, mã đề, đáp án và <b>danh sách thí sinh có cột Lớp</b>.</li>
+<li>Tab <span class="ui">👥 Nhóm</span> → mở khung <span class="ui">⬆️ Đẩy kỳ thi lên Hub</span>: chọn <b>kỳ thi</b>, <b>nhóm con</b>, <b>cách phân công</b> và <b>hạn chấm</b>.
+<ul>
+<li><b>Mọi giáo viên chấm toàn bộ</b>: ai trong nhóm con cũng tải và chấm được toàn bộ kỳ thi.</li>
+<li><b>Phân công theo lớp/phòng thi</b>: mỗi dòng một giáo viên theo mẫu <code>email: 12A, 12B</code>; giáo viên chỉ thấy các lớp được gán.</li>
+</ul></li>
+<li>Bấm <span class="ui">⬆️ Đẩy lên Hub</span>. Kỳ thi chuyển sang trạng thái <b>Đang mở</b> và hiện cho giáo viên được gán.</li>
+</ol>
+<figure class="shot">
+<img src="assets/img/shots/24-nhom-day-ky-thi.png" alt="Khung đẩy kỳ thi lên Hub" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Khung “⬆️ Đẩy kỳ thi lên Hub” đang mở, chọn “Phân công theo lớp/phòng thi” và có vài dòng phân công mẫu (dùng email giả)</b><code>assets/img/shots/24-nhom-day-ky-thi.png</code></div>
+<figcaption>Đẩy kỳ thi lên Hub</figcaption>
+</figure>
+
+<h4>d) Theo dõi tiến độ, xem chi tiết và duyệt</h4>
+<ul>
+<li>Thanh <span class="ui">📥 Cần xử lý</span> cho biết số bài chờ duyệt, yêu cầu đính chính, kỳ thi đang mở/đã kết thúc; nút <span class="ui">📥 Bài cần review</span> gom mọi bài chờ duyệt hoặc có thí sinh cần xem lại ở một nơi.</li>
+<li>Với mỗi kỳ thi đang mở, bấm <span class="ui">📋 Kết quả</span>: thấy <b>tiến độ</b> (đã nộp/dự kiến), <b>ai chưa nộp</b> (nút <span class="ui">📣 Nhắc</span> tạo lời nhắn để chia sẻ), và với mỗi giáo viên: số bài, điểm trung bình, số bài cần xem lại, trạng thái.</li>
+<li><span class="ui">🔍 Chi tiết</span> mở từng thí sinh của giáo viên đó (họ tên · mã đề · điểm; tick <i>Chỉ hiện bài cần xem lại</i>; đáp án từng câu). Có thể sửa điểm rồi bấm <span class="ui">💾 Lưu điểm đã sửa &amp; trả giáo viên</span> — <b>bắt buộc nêu lý do</b>, giáo viên sẽ thấy.</li>
+<li>Bấm <span class="ui">Duyệt</span>, hoặc <span class="ui">Yêu cầu chấm lại</span> kèm lời nhắn gửi giáo viên.</li>
+<li>App cảnh báo khi một thí sinh bị <b>từ 2 giáo viên trở lên</b> chấm (không tự chọn bài nào).</li>
+<li>Yêu cầu <b>đính chính</b> của giáo viên (sau khi đã duyệt) hiện ở khung riêng với nút <span class="ui">Duyệt</span>/<span class="ui">Từ chối</span>.</li>
+</ul>
+<figure class="shot">
+<img src="assets/img/shots/26-nhom-ket-qua-duyet.png" alt="Kết quả, tiến độ và duyệt bài của giáo viên" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Bấm “📋 Kết quả” của một kỳ thi: thấy tiến độ nộp, danh sách giáo viên với nút “🔍 Chi tiết / Duyệt / Yêu cầu chấm lại”; chụp thêm một ảnh bảng “🔍 Chi tiết” nếu được</b><code>assets/img/shots/26-nhom-ket-qua-duyet.png</code></div>
+<figcaption>Kết quả theo giáo viên: tiến độ, chi tiết, duyệt</figcaption>
+</figure>
+
+<h4>e) Đóng nhận, chốt kỳ thi, biên bản và dọn dẹp</h4>
+<table class="tbl"><tr><th>Thao tác</th><th>Ý nghĩa</th></tr>
+<tr><td><span class="ui">Đóng nhận</span> / <span class="ui">Mở lại</span></td><td>Ngừng/nhận lại kết quả mới (khi chưa chốt).</td></tr>
+<tr><td><span class="ui">Chốt</span></td><td>Chỉ chốt được khi <b>mọi bài đã nộp đều được duyệt</b>. Sau khi chốt không nhận hay sửa kết quả; hệ thống <b>tự lập biên bản</b>.</td></tr>
+<tr><td><span class="ui">Biên bản kỳ thi</span></td><td>Gồm: nhóm, phiên bản đề, hình thức phân công, hạn, người đẩy; từng giáo viên chấm (lớp, số bài, điểm TB, số cần xem lại, trạng thái, người duyệt); người chưa nộp; tổng số thí sinh, điểm TB; số đính chính. Xem, chia sẻ hoặc lưu tệp văn bản.</td></tr>
+<tr><td><span class="ui">⬇️ Xuất điểm CSV</span></td><td>Bảng điểm tổng hợp toàn kỳ thi.</td></tr>
+<tr><td><span class="ui">🗑 Dọn kỳ thi</span></td><td>Xoá <b>đề và bài chấm chi tiết</b> khỏi Hub nhưng <b>giữ biên bản</b>. Không hoàn tác — nên xuất CSV trước.</td></tr></table>
+<p>Kỳ thi đã chốt/đã dọn được gom vào mục <span class="ui">🗂 Kỳ thi đã kết thúc</span> để màn hình gọn lại.</p>
+<figure class="shot">
+<img src="assets/img/shots/27-nhom-bien-ban.png" alt="Biên bản kỳ thi và mục kỳ thi đã kết thúc" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Mục “🗂 Kỳ thi đã kết thúc” với các nút Biên bản · Xuất điểm CSV · Dọn kỳ thi, và nội dung một biên bản</b><code>assets/img/shots/27-nhom-bien-ban.png</code></div>
+<figcaption>Biên bản kỳ thi và dọn dẹp</figcaption>
+</figure>
+
+<h3>14.3 Dành cho giáo viên (thành viên nhóm)</h3>
+<ol class="steps">
+<li>Mở tab <span class="ui">👥 Nhóm</span> → <span class="ui">🔄 Làm mới</span>. Mục <b>👥 Kỳ thi chung của nhóm</b> liệt kê các kỳ thi dành cho bạn (kèm nhóm con, trạng thái, hạn và lớp được phân công).</li>
+<li>Bấm <span class="ui">⬇️ Tải về để chấm</span>. Kỳ thi được nhập vào máy như một kỳ thi bình thường nhưng <b>nội dung đề chỉ đọc</b>.</li>
+<li>Sang tab <span class="ui">Kỳ thi</span>, bấm <span class="ui">✅ Dùng kỳ thi này</span> cho kỳ thi vừa tải và chấm như bình thường (mục <a href="#cham-bai">11</a>) — <b>không cần Internet</b> khi chấm.</li>
+<li>Chấm xong, quay lại tab Nhóm bấm <span class="ui">✅ Hoàn thiện &amp; gửi kết quả</span>. App nhắc: sau khi gửi bạn không tự sửa được kết quả.</li>
+<li>Chờ quản trị duyệt. Nếu bị <b>Cần chấm lại</b>, sửa rồi gửi lại.</li>
+</ol>
+<figure class="shot">
+<img src="assets/img/shots/25-nhom-giao-vien.png" alt="Tab Nhóm của giáo viên" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Tab “👥 Nhóm” (tài khoản giáo viên): thẻ kỳ thi chung có nhãn trạng thái và nút “⬇️ Tải về để chấm” hoặc “✅ Hoàn thiện &amp; gửi kết quả”</b><code>assets/img/shots/25-nhom-giao-vien.png</code></div>
+<figcaption>Tab Nhóm — màn hình của giáo viên</figcaption>
+</figure>
+<h4>Trạng thái bạn sẽ thấy</h4>
+<table class="tbl"><tr><th>Nhãn</th><th>Nghĩa là</th><th>Bạn làm gì</th></tr>
+<tr><td>Chưa tải về</td><td>Kỳ thi đã mở cho bạn</td><td><span class="ui">⬇️ Tải về để chấm</span></td></tr>
+<tr><td>Đang chấm</td><td>Đã tải, chưa gửi</td><td>Chấm xong rồi <span class="ui">✅ Hoàn thiện &amp; gửi kết quả</span></td></tr>
+<tr><td>Đã gửi — chờ duyệt</td><td>Quản trị chưa duyệt</td><td>Chờ</td></tr>
+<tr><td>Đã được duyệt</td><td>Kết quả đã được chấp nhận</td><td>Cần đổi thì <span class="ui">✏️ Xin đính chính</span> và nêu lý do</td></tr>
+<tr><td>Cần chấm lại</td><td>Quản trị yêu cầu chấm lại (có lời nhắn <i>💬 Quản trị nhóm</i>)</td><td>Sửa rồi gửi lại</td></tr>
+<tr><td>Quản trị đã sửa — chờ duyệt</td><td>Quản trị đã sửa điểm; bản sửa chỉ đọc</td><td>Xem lại bản đã sửa</td></tr></table>
+<ul>
+<li><b>Mất mạng khi gửi:</b> kết quả được xếp hàng (“⏳ … kết quả chờ gửi”) và tự gửi khi có mạng; bấm <span class="ui">🔄 Làm mới</span> để gửi ngay và cập nhật trạng thái. Khi đang ngoại tuyến, app vẫn hiện các kỳ thi đã tải về máy.</li>
+<li><b>Đề được cập nhật:</b> thấy cảnh báo “Đề đã được cập nhật” thì bấm <span class="ui">⬇️ Tải đề mới</span> rồi chấm lại — kết quả chấm bằng đề cũ không gửi được.</li>
+<li>Mục <span class="ui">📖 Hướng dẫn kỳ thi chung</span> trong tab Nhóm tóm tắt các bước này ngay trong app.</li>
+</ul>
+
+<h3>14.4 Vòng đời của kỳ thi và kết quả</h3>
+<figure class="fig"><img src="assets/img/vong-doi-nhom.svg" alt="Vòng đời kỳ thi chung (đang mở, đã đóng nhận, đã chốt, đã khoá, đã dọn) và trạng thái bài chấm của giáo viên" width="1000" height="410" loading="lazy"><figcaption>Vòng đời kỳ thi chung và trạng thái bài chấm của giáo viên</figcaption></figure>
+<div class="callout warn"><b class="t">Khi tab Nhóm chưa dùng được</b><p>Tab hiện “Tổ chức của bạn chưa cấu hình Group Hub” nghĩa là quản trị nhóm chưa hoàn thành bước thiết lập (mục 14.2a); chỉ tài khoản quản trị mới thấy ô nhập địa chỉ Hub. Tab dành cho <b>license tổ chức</b>; với license cá nhân bạn dùng các tab khác như bình thường. Nếu app báo “Group Hub chưa cập nhật lên v36”, nhờ nhà phát triển cập nhật mã Hub.</p></div>
+
+<h2 id="tu-luan"><span class="n">15</span>Chấm tự luận bằng AI <span class="pill">Bản thử nghiệm</span></h2>
+<p>Ngoài trắc nghiệm, ExamMark có chế độ <b>chấm bài tự luận</b>: bạn chụp ảnh bài làm viết tay → AI <b>chép lại</b> bài → AI <b>chấm từng ý theo barem</b> → giáo viên xem bản chép, sửa điểm và <b>duyệt</b>. Nguyên tắc: <b>AI đề xuất, giáo viên quyết định</b>.</p>
+<figure class="fig"><img src="assets/img/tu-luan-flow.svg" alt="Quy trình chấm tự luận: nhập đề và barem, chụp bài, AI chép, AI chấm, giáo viên xem và sửa, duyệt và xuất" width="1000" height="210" loading="lazy"><figcaption>Quy trình chấm tự luận</figcaption></figure>
+<div class="callout warn"><b class="t">Đọc trước khi dùng</b><ul style="margin:6px 0 6px 18px">
+<li>Đây là chức năng <b>đang trong giai đoạn thử nghiệm</b>: hãy chấm thử vài bài, so với cách chấm của bạn rồi mới dùng cho bài thi chính thức.</li>
+<li>Cần <b>Internet</b> khi gọi AI và cần <b>khoá API của nhà cung cấp AI do bạn tự đăng ký</b> (Gemini, OpenAI hoặc Claude). Khoá API <b>hoàn toàn tách biệt</b> với license ExamMark; phí gọi AI do nhà cung cấp tính cho bạn.</li>
+<li><b>Ảnh bài làm và đề/đáp án/barem được gửi thẳng từ máy bạn tới nhà cung cấp AI</b> mà bạn chọn (không qua máy chủ của ExamMark). Hãy kiểm tra quy định bảo vệ dữ liệu học sinh của trường trước khi dùng.</li>
+<li>Chữ viết tay khó đọc hoặc công thức phức tạp vẫn có thể làm AI chép/chấm sai: <b>luôn xem bản chép trước khi tin điểm</b>.</li></ul></div>
+
+<h3>15.1 Điều kiện sử dụng</h3>
+<table class="tbl"><tr><th>Trạng thái license</th><th>Xem / xuất / xoá dữ liệu</th><th>Rà soát, nhập gói</th><th>Chấm AI, tạo kỳ thi, chia sẻ đi</th></tr>
+<tr><td>Còn hạn, gói có quyền <b>chấm tự luận</b></td><td>✔</td><td>✔</td><td>✔</td></tr>
+<tr><td>Còn hạn, gói chỉ có quyền <b>rà soát</b></td><td>✔</td><td>✔</td><td>—</td></tr>
+<tr><td>Gói không có quyền tự luận, hết hạn, bị khoá hoặc chưa kích hoạt</td><td>✔</td><td>—</td><td>—</td></tr></table>
+<p>Quyền tự luận phụ thuộc <b>gói license</b> (gói dùng thử mặc định có đủ). Nếu app báo chưa có quyền tự luận dù gói đã có, hãy kết nối mạng để <b>làm mới license</b> rồi thử lại. Cài đặt (khoá API, lệnh chấm) và xoá dữ liệu luôn dùng được.</p>
+
+<h3>15.2 Bật chế độ Tự luận</h3>
+<p>Ở thanh tiêu đề có ô chọn chế độ <span class="ui">📱 Chấm trắc nghiệm</span> | <span class="ui">🤖 Chấm tự luận</span> | <span class="ui">🌐 Phòng thi online</span> (cũng có trong <span class="ui">⚙️ Cài đặt</span>; chế độ thứ ba xem <a href="#giao-bai-online">mục 16</a>). Chọn <b>Chấm tự luận</b> → giao diện và thanh tab trắc nghiệm được ẩn, giao diện tự luận hiện ra với bốn mục: <span class="ui">📚 Kỳ thi</span> · <span class="ui">📝 Bài làm</span> · <span class="ui">📊 Kết quả</span> · <span class="ui">⚙️ Cài đặt</span>. Lựa chọn được ghi nhớ; chọn lại <b>Chấm trắc nghiệm</b> để trở về đúng tab đang mở.</p>
+<div class="callout"><b class="t">Không thấy ô chọn chế độ?</b><p>Tab <span class="ui">Chấm bài</span> cố ý ẩn thanh tiêu đề để dành chỗ cho camera. Hãy chuyển sang tab khác (ví dụ Kỳ thi) hoặc mở <span class="ui">⚙️ Cài đặt</span> để thấy ô chọn.</p></div>
+<figure class="shot">
+<img src="assets/img/shots/28-tu-luan-chon-che-do.png" alt="Ô chọn chế độ: trắc nghiệm, tự luận hoặc Phòng thi online" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Thanh tiêu đề có ô chọn “📱 Chấm trắc nghiệm / 🤖 Chấm tự luận / 🌐 Phòng thi online” (chụp ở tab Kỳ thi), và ảnh thứ hai là giao diện tự luận với 4 mục 📚 📝 📊 ⚙️</b><code>assets/img/shots/28-tu-luan-chon-che-do.png</code></div>
+<figcaption>Chuyển giữa các chế độ: trắc nghiệm, tự luận, Phòng thi online</figcaption>
+</figure>
+
+<h3>15.3 Cài đặt AI (làm một lần)</h3>
+<ol class="steps">
+<li>Mở mục <span class="ui">⚙️ Cài đặt</span> của chế độ tự luận → chọn <b>Nhà cung cấp AI</b> (Gemini / OpenAI / Claude).</li>
+<li>Dán <b>khoá API</b> của bạn. Khoá chỉ lưu trên máy này — <b>đừng gửi khoá qua chat hay email</b>.</li>
+<li>Bấm <span class="ui">Lấy danh sách mô hình</span> và chọn một mô hình đang dùng được (tên mô hình thay đổi theo thời gian, nên không nên tin tên mặc định). Để trống = dùng mô hình mặc định.</li>
+<li>Bấm <span class="ui">Kiểm tra kết nối</span>.</li>
+</ol>
+<p>Tuỳ chọn trong mục này: <b>Mô hình dự phòng</b> (tự dùng khi mô hình chính báo quá tải mà thử lại vẫn lỗi); <b>Gửi kèm ảnh khi chấm</b> (nên bật với bài có hình vẽ/đồ thị; tốn thêm phí); <b>Chấm 2 lần, lệch thì lấy trung bình và gắn cờ</b> (tốn gấp đôi); <b>Tên của tôi</b> (hiện trong gói chia sẻ và lịch sử sửa điểm).</p>
+<figure class="shot">
+<img src="assets/img/shots/29-tu-luan-cai-dat-ai.png" alt="Cài đặt nhà cung cấp AI" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Mục “⚙️ Cài đặt” của chế độ tự luận: chọn nhà cung cấp, ô khoá API (PHẢI che khoá thật), nút “Lấy danh sách mô hình” và “Kiểm tra kết nối”</b><code>assets/img/shots/29-tu-luan-cai-dat-ai.png</code></div>
+<figcaption>Cài đặt nhà cung cấp AI và khoá API</figcaption>
+</figure>
+
+<h3>15.4 Tạo kỳ thi tự luận</h3>
+<ol class="steps">
+<li>Mục <span class="ui">📚 Kỳ thi</span> → <span class="ui">+ Tạo kỳ thi</span> (hoặc <span class="ui">Nạp bài mẫu</span> để thử ngay với một bài Toán 10 kèm 2 thí sinh).</li>
+<li>Nhập <b>Tên</b>, <b>Môn</b>, <b>Lớp</b>, <b>Tổng điểm</b>.</li>
+<li>Nhập <b>Đề</b>, <b>Đáp án</b> và <b>Barem</b>: mỗi ô có thể gõ tay, hoặc lấy <span class="ui">📷 Từ ảnh</span>, <span class="ui">📄 Từ tệp .docx/.pdf/.txt</span>. Nếu chỉ có <b>một tài liệu chứa cả đề, đáp án, barem</b>, dùng <span class="ui">🪄 Tách tự động từ 1 tệp/ảnh</span>: AI chia vào ba ô, bạn kiểm tra lại.</li>
+<li>Barem càng <b>chia nhỏ ý</b>, AI chấm càng nhất quán; <b>tổng điểm các ý phải bằng Tổng điểm</b>.</li>
+<li>(Tuỳ chọn) chọn <b>Lệnh chấm riêng</b> cho kỳ thi (mục 15.9) rồi <span class="ui">Lưu kỳ thi</span>.</li>
+</ol>
+<table class="tbl"><tr><th>Định dạng nhập</th><th>Cách app xử lý</th></tr>
+<tr><td>Ảnh</td><td>Gửi cho AI đọc</td></tr>
+<tr><td>.docx</td><td>Đọc ngay trên máy: văn bản, bảng, công thức Word (chuyển sang LaTeX). Công thức MathType/ảnh nhúng và hình vẽ <b>không</b> thành chữ được — app đếm và cảnh báo</td></tr>
+<tr><td>.pdf</td><td>Gửi nguyên PDF cho AI đọc (hợp công thức và hình)</td></tr>
+<tr><td>.txt</td><td>Dùng trực tiếp</td></tr></table>
+<p><b>Danh sách thí sinh</b> (nên có): cùng cấu trúc với phần trắc nghiệm — <i>Mã HS, Họ tên, Lớp, SBD</i> (SBD không trùng). Dùng <span class="ui">📥 Mẫu CSV</span>, <span class="ui">📤 Nhập CSV/Excel</span>, <span class="ui">📋 Dán từ Excel</span> hoặc <span class="ui">➕ Thêm từng thí sinh</span>. Tiêu đề cột có dấu hay không dấu đều nhận. Có danh sách thì chấm theo từng thí sinh và kết quả xuất theo đúng thứ tự danh sách.</p>
+<figure class="shot">
+<img src="assets/img/shots/30-tu-luan-ky-thi.png" alt="Form tạo kỳ thi tự luận" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Form kỳ thi tự luận: Tên/Môn/Lớp/Tổng điểm, ba ô Đề – Đáp án – Barem (có nút 📷 Từ ảnh, 📄 Từ tệp) và nút “🪄 Tách tự động từ 1 tệp/ảnh”</b><code>assets/img/shots/30-tu-luan-ky-thi.png</code></div>
+<figcaption>Tạo kỳ thi tự luận: đề, đáp án, barem</figcaption>
+</figure>
+
+<h3>15.5 Chấm bài</h3>
+<p>Mục <span class="ui">📝 Bài làm</span>:</p>
+<ul>
+<li><b>Có danh sách thí sinh:</b> mỗi thí sinh có nút <span class="ui">📷</span>/<span class="ui">🖼</span> riêng để chụp hoặc chọn ảnh của em đó (nhiều trang được). Hoặc <b>nhập hàng loạt</b>: chọn nhiều ảnh, app tự ghép vào thí sinh theo <b>SBD hoặc họ tên trong tên tệp</b> (ví dụ <code>SBD_002_p1.jpg</code>; SBD phải là một cụm số nguyên vẹn). Ảnh không ghép được nằm ở <b>Bài chưa gán</b> để bạn gán tay — luôn xem lại mục này.</li>
+<li><b>Không có danh sách:</b> <span class="ui">📷 Chụp bài</span> / <span class="ui">🖼 Chọn ảnh</span> tạo một bài mới từ các ảnh vừa chọn (nhiều trang).</li>
+<li>Bấm nút <b>Chép + chấm</b> ở từng bài, hoặc <span class="ui">⚡ Chấm tất cả chưa chấm</span> (có nút Dừng khi đang chạy).</li>
+<li>Khi máy chủ AI quá tải (lỗi 503/529), giới hạn tạm thời hoặc mất mạng, app tự chờ rồi thử lại (3 → 8 → 15 giây); nếu vẫn lỗi và bạn đã đặt <b>Mô hình dự phòng</b> thì chuyển sang mô hình đó. Bài còn lỗi thì bấm chấm lại sau. Sai khoá, hết tiền hay sai tên mô hình được báo kèm hướng dẫn cụ thể.</li>
+</ul>
+<figure class="shot">
+<img src="assets/img/shots/31-tu-luan-bai-lam.png" alt="Danh sách bài làm và chấm hàng loạt" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Mục “📝 Bài làm”: thanh tiến độ khi đang chấm, nút “⚡ Chấm tất cả chưa chấm”, danh sách thí sinh với nút 📷/🖼 và trạng thái từng bài (che họ tên thật)</b><code>assets/img/shots/31-tu-luan-bai-lam.png</code></div>
+<figcaption>Bài làm: chụp ảnh, ghép theo thí sinh, chấm hàng loạt</figcaption>
+</figure>
+
+<h3>15.6 Xem lại và sửa điểm</h3>
+<p>Mở một bài để thấy: <b>ảnh bài làm</b> (chạm để phóng to, xoay, xoá), <b>bản chép</b> của AI (kèm các chỗ AI không chắc — sửa nếu chép sai), <b>điểm từng ý</b> kèm lý do của AI, và cờ <b>⚠️ Cần xem lại</b> khi AI không chắc, điểm lệch thang hoặc hai lần chấm chênh nhau. Bạn có thể sửa điểm từng ý, ghi chú (ví dụ “Ý b nên cho 0,25 vì thiếu lập luận”), <b>Chấm lại từ bản chép</b> sau khi sửa bản chép, rồi duyệt bài.</p>
+<ul>
+<li><b>Điểm tổng luôn do app cộng lại</b> từ điểm các ý và bị chặn không vượt điểm tối đa của từng ý.</li>
+<li>Mọi lần sửa điểm được ghi trong <b>✎ Lịch sử sửa điểm</b>.</li>
+</ul>
+<figure class="shot">
+<img src="assets/img/shots/32-tu-luan-chi-tiet-cham.png" alt="Chi tiết một bài tự luận đã chấm" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Mở một bài đã chấm: ảnh bài làm, bản chép, bảng điểm từng ý có lý do và cờ “⚠️ Cần xem lại”</b><code>assets/img/shots/32-tu-luan-chi-tiet-cham.png</code></div>
+<figcaption>Chi tiết bài: bản chép, điểm từng ý, cờ cần xem lại</figcaption>
+</figure>
+
+<h3>15.7 Kết quả và xuất tệp</h3>
+<p>Mục <span class="ui">📊 Kết quả</span> cho biết <b>Đã chấm x/y</b>, điểm trung bình, số bài chờ xem lại. Xuất bằng <span class="ui">⬇ CSV</span>, <span class="ui">⬇ Excel</span> hoặc <span class="ui">⬇ JSON (tích hợp)</span>. Kết quả theo đúng thứ tự danh sách; thí sinh chưa có bài ghi “Chưa có bài”.</p>
+<div class="callout"><b class="t">Điểm tự luận và điểm trắc nghiệm</b><p>Hiện điểm tự luận được xuất <b>riêng</b>; app chưa tự cộng vào điểm trắc nghiệm của cùng thí sinh. Bạn có thể ghép hai bảng điểm bằng cột <b>SBD</b> trong Excel. Tệp JSON dùng cho việc tích hợp sâu về sau.</p></div>
+<figure class="shot">
+<img src="assets/img/shots/33-tu-luan-ket-qua-xuat.png" alt="Kết quả tự luận và nút xuất" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Mục “📊 Kết quả” của chế độ tự luận có thống kê tiến độ và các nút ⬇ CSV / ⬇ Excel / ⬇ JSON</b><code>assets/img/shots/33-tu-luan-ket-qua-xuat.png</code></div>
+<figcaption>Kết quả tự luận và xuất tệp</figcaption>
+</figure>
+
+<h3>15.8 Chia sẻ để đồng nghiệp rà soát</h3>
+<p>Dùng khi bạn muốn người khác kiểm tra lại điểm (ví dụ chấm chéo, kiểm tra chọn mẫu):</p>
+<figure class="fig"><img src="assets/img/tu-luan-chia-se.svg" alt="Chia sẻ để rà soát: người chấm tạo gói, người rà soát sửa điểm và gửi lại, người chấm nhận hoặc giữ điểm từng bài" width="1000" height="250" loading="lazy"><figcaption>Luồng chia sẻ để rà soát</figcaption></figure>
+<ol class="steps">
+<li><b>Người chấm:</b> mục <span class="ui">📊 Kết quả</span> → <span class="ui">📤 Chia sẻ để rà soát</span>. Chọn bài: <span class="ui">⚠️ Cần xem lại</span>, <span class="ui">✎ Có sửa/nhận xét</span>, <span class="ui">Tất cả</span> hoặc <span class="ui">🎲 ngẫu nhiên</span> một số bài. Mặc định gói <b>chỉ có điểm, bản chép và đề/đáp án/barem — KHÔNG kèm ảnh bài làm</b> (có ô <i>Kèm ảnh bài làm</i> nếu cần; gói sẽ nặng và lộ ảnh bài thi). Bấm <span class="ui">📦 Tạo &amp; tải gói</span> và gửi tệp cho người rà soát.</li>
+<li><b>Người rà soát</b> (chỉ cần quyền rà soát, <b>không cần cùng license</b>): <span class="ui">📥 Nhập gói chia sẻ / rà soát</span> → sửa điểm, nhận xét theo bài và <b>góp ý riêng từng ý</b> → <span class="ui">Gửi kết quả rà soát</span> (tạo tệp trả lại).</li>
+<li><b>Người chấm</b> nhập tệp trả lại, xem chênh lệch và chọn <span class="ui">Nhận điểm của người rà soát</span> hoặc <span class="ui">Giữ điểm của tôi</span> cho từng bài — app <b>không tự đổi điểm</b> của bạn.</li>
+</ol>
+<p><small>Hãy gửi gói qua kênh phù hợp quy định bảo mật dữ liệu học sinh của trường.</small></p>
+<figure class="shot">
+<img src="assets/img/shots/34-tu-luan-chia-se-ra-soat.png" alt="Màn hình chia sẻ để rà soát" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Màn “📤 Chia sẻ để rà soát”: chọn bài, tick “Kèm ảnh bài làm” (mặc định tắt) và nút “📦 Tạo &amp; tải gói”</b><code>assets/img/shots/34-tu-luan-chia-se-ra-soat.png</code></div>
+<figcaption>Chia sẻ để rà soát</figcaption>
+</figure>
+
+<h3>15.9 Sửa “Lệnh chấm” (prompt)</h3>
+<p>Mục <span class="ui">⚙️ Cài đặt</span> → <b>Lệnh chấm (prompt)</b> cho phép chỉnh hai chỉ dẫn gửi cho AI: <b>1) lệnh CHÉP bài từ ảnh</b> và <b>2) lệnh CHẤM bài</b>. Bạn có thể lưu thành <b>bộ lệnh có tên</b>, <span class="ui">Đặt làm mặc định</span>, chọn riêng cho từng kỳ thi, hoặc <span class="ui">↺</span> quay về nội dung mặc định. Có thể dùng các biến <code>{{mon}}</code>, <code>{{lop}}</code>, <code>{{tong_diem}}</code>. Phần định dạng JSON và dữ liệu (đề, đáp án, barem, bài làm) do app tự nối, nên sửa lệnh thoải mái cũng không làm hỏng kết quả.</p>
+
+<h3>15.10 Dữ liệu, sao lưu và dung lượng</h3>
+<ul>
+<li>Dữ liệu tự luận nằm <b>trên máy này</b> (văn bản trong bộ nhớ của app, ảnh lưu riêng). Dữ liệu này <b>chưa nằm trong sao lưu Google Drive hay Group Hub</b>. Đổi máy hoặc xoá dữ liệu ứng dụng là mất nếu chưa sao lưu.</li>
+<li>Dùng <span class="ui">⚙️ Cài đặt</span> → <span class="ui">💾 Sao lưu</span> (có tick <i>Kèm ảnh bài làm</i>, nặng hơn) và <span class="ui">♻️ Khôi phục từ tệp</span>. Tệp sao lưu <b>không chứa khoá API</b>.</li>
+<li>Mục Sao lưu/khôi phục hiện dung lượng đang dùng; nếu bộ nhớ đầy app <b>báo ngay bằng biểu ngữ đỏ</b> chứ không mất dữ liệu âm thầm. Nút <span class="ui">Xoá toàn bộ dữ liệu tự luận trên máy</span> xoá sạch khi cần.</li>
+</ul>
+<div class="callout"><b class="t">Giới hạn hiện tại</b><ul style="margin:6px 0 6px 18px"><li>Chưa có cắt/làm nét ảnh (chỉ thu nhỏ và xoay 90°); chưa chấm song song nhiều bài cùng lúc.</li><li>Chưa đọc được tệp .doc cũ; .docx có công thức dạng ảnh cần chuyển sang PDF hoặc chụp ảnh.</li><li>Chưa đồng bộ Drive, chưa cộng điểm tự động với điểm trắc nghiệm, chưa đưa kỳ thi tự luận lên Group Hub.</li></ul></div>
+
+<h2 id="giao-bai-online"><span class="n">16</span>Giao bài &amp; chấm thi online (Phòng thi) <span class="pill">Mới</span></h2>
+<p>Ngoài chấm phiếu giấy bằng camera, ExamMark có thể <b>giao bài cho học sinh làm ngay trên trình duyệt</b> (điện thoại hoặc máy tính), hiển thị công thức Toán và hình vẽ, có đồng hồ đếm ngược; bài nộp được <b>chấm tự động</b>, tổng hợp theo lớp/cá nhân, kèm nhận xét và có thể gửi kết quả qua email. Tính năng này gọi là <b>Phòng thi</b> và thao tác được <b>trong app</b> lẫn <b>trên web</b>.</p>
+<figure class="fig"><img src="assets/img/giao-bai-online-flow.svg" alt="Quy trình giao bài online: cài Phòng thi một lần, chọn câu hoặc mã đề, giao và mở bài, học sinh làm bài trên trình duyệt, chấm và gửi kết quả" width="1000" height="210" loading="lazy"><figcaption>Quy trình giao bài và chấm thi online</figcaption></figure>
+<div class="callout warn"><b class="t">Đọc trước khi dùng</b><ul style="margin:6px 0 6px 18px">
+<li><b>Phòng thi chạy trên Google Apps Script của chính bạn</b> (một bảng tính Google + Drive của bạn), không chạy trên máy chủ của ExamMark. Bạn cần tài khoản Google và làm một lần phần <a href="#phong-thi-cai-dat">cài đặt</a> bằng menu — không phải dán mã.</li>
+<li><b>Học sinh không cần tài khoản Google.</b> Họ mở đường dẫn hoặc quét mã QR bạn gửi. Bài làm, họ tên, lớp, email và điểm nằm trong Google Sheet/Drive của bạn; nhà phát triển ExamMark không nhận những dữ liệu này (xem <a href="privacy.html">Quyền riêng tư</a>).</li>
+<li><b>Chống rời màn hình chỉ là răn đe và bằng chứng</b>, không phải phòng thi khoá (xem <a href="#phong-thi-hoc-sinh">mục 16.5</a>). Với bài thi quan trọng hãy có giám thị.</li>
+<li>Đây là chức năng mới. Trước kỳ thi thật, hãy <b>giao thử một bài ngắn (khoảng 5 phút) cho 3–5 máy</b>, nên có cả iPhone, để kiểm tra đường truyền, công thức và chế độ toàn màn hình.</li></ul></div>
+
+<h3>16.1 Chấm phiếu giấy hay giao bài online?</h3>
+<table class="tbl"><tr><th></th><th>Chấm bằng camera (mục <a href="#cham-bai">11</a>)</th><th>Giao bài online (mục này)</th></tr>
+<tr><td>Học sinh làm bài</td><td>Tô phiếu giấy</td><td>Trên điện thoại/máy tính, qua trình duyệt</td></tr>
+<tr><td>Cần Internet</td><td>Không (chỉ khi kích hoạt license)</td><td>Có — giáo viên khi giao bài, học sinh khi làm bài</td></tr>
+<tr><td>Nơi lưu dữ liệu</td><td>Trong điện thoại của giáo viên</td><td>Google Sheet và Drive của giáo viên</td></tr>
+<tr><td>Công thức, hình vẽ</td><td>In trên đề giấy</td><td>Hiển thị ngay trong bài (công thức LaTeX, hình)</td></tr>
+<tr><td>Chấm</td><td>Máy nhận dạng ô tô, giáo viên xem lại câu mơ hồ</td><td>Chấm tự động ngay khi nộp (không có “câu mơ hồ”)</td></tr></table>
+
+<h3 id="phong-thi-cai-dat">16.2 Cài đặt Phòng thi (làm một lần)</h3>
+<p>Mỗi giáo viên có <b>Phòng thi riêng</b> với <b>địa chỉ</b> và <b>khoá</b> riêng, nên nhà phát triển và giáo viên khác không xem được dữ liệu của bạn. Mọi bước làm bằng menu <span class="ui">🌐 ExamRoom</span> trong Google Sheet:</p>
+<ol class="steps">
+<li><b>Nhận liên kết “Tạo bản sao”</b> của bảng tính mẫu <i>ExamRoom (bản mẫu)</i> từ nhà phát triển (email ở cuối trang). Mở liên kết → <span class="ui">Tạo bản sao</span> vào Google Drive của bạn → mở bản sao. Menu <span class="ui">🌐 ExamRoom</span> hiện sau vài giây (chưa thấy thì tải lại trang).</li>
+<li>Chọn <span class="ui">🌐 ExamRoom ▸ ⓪ Cài đặt nhanh</span>. Hộp thoại sẽ hỏi <b>khoá phòng thi</b>: <b>để trống = tự sinh</b> (khuyên dùng); nếu tự đặt thì dài 12–64 ký tự gồm chữ, số hoặc <code>. _ -</code>, không toàn số.</li>
+<li>Khi Google hỏi cấp quyền (lần đầu thường hiện “ứng dụng chưa được xác minh”): chọn <b>Nâng cao ▸ Đi tới … (không an toàn)</b> — đây là script nằm trong tài khoản của chính bạn.</li>
+<li>Nếu báo <b>cần bật Google Apps Script API</b>: mở <a href="https://script.google.com/home/usersettings" rel="noopener">script.google.com/home/usersettings</a>, bật <i>Google Apps Script API</i> rồi chạy lại ⓪ (các bước đã xong được giữ nguyên).</li>
+<li>Hộp thoại cuối hiện <b>địa chỉ <code>…/exec</code></b>, <b>khoá phòng thi</b> và <b>đường dẫn trang giáo viên</b>, mỗi ô có nút sao chép. Giữ lại hai thứ đầu để dán vào app (mục 16.3).</li>
+</ol>
+<figure class="shot">
+<img src="assets/img/shots/37-phong-thi-menu-examroom.png" alt="Menu ExamRoom trong Google Sheet" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Menu “🌐 ExamRoom” trong Google Sheet đang mở rộng (⓪ … ⑤, ④b, Kiểm tra tình trạng); ảnh thứ hai là hộp thoại cuối với địa chỉ …/exec và khoá (PHẢI che khoá thật)</b><code>assets/img/shots/37-phong-thi-menu-examroom.png</code></div>
+<figcaption>Menu ExamRoom và hộp thoại địa chỉ + khoá</figcaption>
+</figure>
+<p>Khi cần làm riêng từng bước, dùng các mục menu sau:</p>
+<table class="tbl"><tr><th>Mục menu</th><th>Việc làm</th></tr>
+<tr><td><b>① Khởi tạo</b></td><td>Tạo các tab dữ liệu, tab <b>Cấu hình</b> và thư mục Drive “ExamMark ExamRoom”; đặt khoá phòng thi (hỏi, trống = tự sinh). Chạy lại an toàn, không đổi khoá đã có.</td></tr>
+<tr><td><b>② Khoá phòng thi</b></td><td>Xem khoá hoặc đổi khoá (phải gõ <code>DOI KHOA</code> để xác nhận). Khoá cũ mất hiệu lực <b>ngay</b>; học sinh không bị ảnh hưởng nhưng app và trang giáo viên phải nhập khoá mới.</td></tr>
+<tr><td><b>③ Tự chốt bài quá hạn</b></td><td>Cài bộ hẹn giờ 5 phút: bài học sinh bỏ dở được tự nộp khi hết giờ.</td></tr>
+<tr><td><b>④ Triển khai Web App</b></td><td>Tạo hoặc cập nhật bản triển khai và lấy địa chỉ; <b>địa chỉ giữ nguyên khi cập nhật</b>, nên link đã gửi học sinh không đổi.</td></tr>
+<tr><td><b>④b Dán địa chỉ nếu triển khai tay</b></td><td>Dự phòng khi ④ báo lỗi (xem khung dưới).</td></tr>
+<tr><td><b>⑤ Xem địa chỉ + khoá</b></td><td>Xem lại địa chỉ, khoá và đường dẫn trang giáo viên bất cứ lúc nào.</td></tr>
+<tr><td><b>Kiểm tra tình trạng</b></td><td>Báo ✅/⚠️/❌ từng mục: tab, khoá, Drive, hẹn giờ, kết nối thử, hạn mức email.</td></tr></table>
+<div class="callout"><b class="t">Nếu menu ④ báo lỗi: triển khai tay rồi dùng ④b</b>
+<p>Thông báo lỗi nêu bước, mã HTTP và nguyên nhân (ví dụ Workspace của trường chặn Apps Script API, thiếu quyền). Cách dự phòng:</p>
+<ol class="steps">
+<li>Trong Apps Script: <span class="ui">Triển khai ▸ Triển khai mới</span> ▸ bánh răng ⚙ ▸ <b>Ứng dụng web</b>; <i>Thực thi dưới danh nghĩa:</i> <b>Tôi</b>; <i>Ai có quyền truy cập:</i> <b>Bất kỳ ai</b> ▸ Triển khai.</li>
+<li>Sao chép <b>URL ứng dụng web</b> (kết thúc bằng <code>/exec</code>).</li>
+<li>Quay lại Sheet ▸ <span class="ui">🌐 ExamRoom ▸ ④b Dán địa chỉ nếu triển khai tay</span> ▸ dán URL. Menu tự chuẩn hoá địa chỉ, lưu lại và kiểm tra thử. Địa chỉ kết thúc bằng <code>/dev</code> bị từ chối.</li></ol></div>
+<div class="callout warn"><b class="t">Giữ kín khoá phòng thi</b><p>Ai có khoá là có toàn quyền với Phòng thi của bạn (xem đáp án, điểm, danh sách thí sinh). Chỉ cấp quyền <i>sửa</i> Google Sheet cho người tin cậy, vì người sửa được Sheet có thể xem được khoá. Nghi ngờ lộ khoá → dùng <b>② Khoá phòng thi</b> để đổi.</p></div>
+
+<h3 id="phong-thi-ket-noi">16.3 Kết nối từ app</h3>
+<p>Ở thanh tiêu đề, ô chọn chế độ nay có <b>ba</b> lựa chọn: <span class="ui">📱 Chấm trắc nghiệm</span> | <span class="ui">🤖 Chấm tự luận</span> | <span class="ui">🌐 Phòng thi online</span>. Chọn <b>Phòng thi online</b> → thanh tab trắc nghiệm được ẩn và hiện một trang riêng; lựa chọn được ghi nhớ cho lần mở sau, chọn lại <b>Chấm trắc nghiệm</b> để về đúng tab đang mở. (Tab <span class="ui">Chấm bài</span> ẩn thanh tiêu đề để dành chỗ cho camera: hãy chuyển sang tab khác hoặc mở <span class="ui">⚙️ Cài đặt</span> để thấy ô chọn.)</p>
+<p>Trang Phòng thi gọn gàng, chia thành ba nhóm có thể <b>thu/mở</b>, và có một thanh thông báo cố định phía trên để hiện tiến độ hoặc lỗi:</p>
+<table class="tbl"><tr><th>Nhóm</th><th>Dùng để</th></tr>
+<tr><td>🔌 <b>Kết nối Phòng thi online</b></td><td>Dán <b>địa chỉ ứng dụng web (<code>…/exec</code>)</b> và <b>khoá phòng thi</b> (dạng <code>RK-…</code>) → <span class="ui">Kết nối</span>. Khi đã kết nối, nhóm này tự thu gọn và có nút <span class="ui">🖥 Mở trang giáo viên (web)</span> và <span class="ui">Ngắt kết nối</span>.</td></tr>
+<tr><td>📤 <b>Giao bài mới</b></td><td>Chọn câu hỏi, đặt cài đặt, giao và mở bài (mục 16.4).</td></tr>
+<tr><td>📋 <b>Bài đã giao</b></td><td>Danh sách bài, theo dõi, kết quả, thí sinh, mở/đóng bài (mục 16.6–16.8).</td></tr></table>
+<figure class="shot">
+<img src="assets/img/shots/36-phong-thi-chon-che-do.png" alt="Ô chọn chế độ có Phòng thi online và ba nhóm của trang Phòng thi" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Ô chọn chế độ ở thanh tiêu đề đang mở ba lựa chọn (Trắc nghiệm / Tự luận / Phòng thi online); ảnh thứ hai là trang Phòng thi đã kết nối với ba nhóm 🔌 📤 📋 (che địa chỉ thật)</b><code>assets/img/shots/36-phong-thi-chon-che-do.png</code></div>
+<figcaption>Chọn chế độ Phòng thi online và ba nhóm của trang</figcaption>
+</figure>
+<p>Phòng thi dùng địa chỉ và khoá của <b>riêng bạn</b>; nó không lấy từ license hay Group Hub.</p>
+
+<h3 id="phong-thi-giao-bai">16.4 Giao bài mới</h3>
+<p>Mở nhóm <span class="ui">📤 Giao bài mới</span> và làm theo thứ tự:</p>
+<ol class="steps">
+<li><b>Chọn nguồn câu hỏi</b> (một trong hai):
+<ul>
+<li><span class="ui">Chọn câu từ ngân hàng</span>: tìm theo chữ, lọc theo môn, chủ đề, loại (Phần I/II/III), tick từng câu hoặc <span class="ui">Chọn tất cả (đang lọc)</span>; ô <i>ngẫu nhiên I · II · III</i> + <span class="ui">🎲</span> chọn ngẫu nhiên số câu mỗi phần từ kết quả đang lọc. Cũng có thể tick câu ở <span class="ui">Soạn đề ▸ Ngân hàng câu hỏi</span> rồi bấm <span class="ui">🌐 Giao bài online với câu đã chọn</span> để chuyển sang đây.</li>
+<li><span class="ui">Dùng kỳ thi / mã đề đã thiết lập</span>: chọn kỳ thi và mã đề; <b>danh sách thí sinh của kỳ thi</b> được dùng luôn làm danh sách dự thi (mã vào thi = mã HS, PIN tự sinh).</li></ul></li>
+<li>Nhập <b>Tên bài thi</b>, <b>Thời gian (phút)</b> (mặc định 45), <b>Thang điểm</b> (mặc định 10); tuỳ chọn <b>Mở từ</b> và <b>Đóng lúc</b>.</li>
+<li>Chọn <b>cách vào thi</b> và các <b>cài đặt</b> (bảng bên dưới).</li>
+<li>Nếu nguồn là ngân hàng: dán <b>danh sách thí sinh</b>, mỗi dòng <code>Mã HS, Họ tên, Lớp, Email, PIN</code> (có thể bỏ các cột phía sau; PIN trống = tự sinh 4 số). Nếu chọn cách vào “Mở: nhập họ tên + lớp” thì không cần danh sách.</li>
+<li>Bấm <span class="ui">🚀 Giao bài &amp; mở</span>. App đưa các hình còn thiếu lên Drive, lưu <b>bản chụp (snapshot)</b> bài thi, lưu danh sách rồi mở bài. Nếu chưa muốn cho vào thi, bấm <span class="ui">💾 Lưu nháp (chưa mở)</span> và mở sau bằng nút ▶ ở nhóm <i>Bài đã giao</i>.</li>
+</ol>
+<table class="tbl"><tr><th>Cài đặt</th><th>Ý nghĩa</th></tr>
+<tr><td><b>Vào bằng mã HS (danh sách)</b> / <b>Mở: nhập họ tên + lớp</b></td><td>Cách thứ nhất: học sinh nhập mã HS (kèm <b>PIN</b> nếu bật <i>Yêu cầu PIN</i>) và phải có trong danh sách. Cách thứ hai: ai có đường dẫn cũng vào được bằng họ tên + lớp.</td></tr>
+<tr><td><b>Trộn câu · Trộn A–D · Trộn ý a–d</b></td><td>Mỗi học sinh nhận một tờ đề riêng (thứ tự câu, thứ tự phương án, thứ tự ý Đúng/Sai khác nhau). Phương án kiểu “Cả A và B”, “Tất cả đều đúng” được giữ nguyên vị trí. Câu thuộc một <b>nhóm có đoạn dẫn chung</b> luôn đi liền nhau, đúng thứ tự. Đáp án luôn được quy về thứ tự gốc trước khi chấm.</td></tr>
+<tr><td><b>Chống rời màn hình</b></td><td>Bật/tắt; <i>Toàn màn hình</i>; cho phép <b>N lần</b> (mặc định 3) rồi <b>tự nộp</b> hoặc <b>chỉ ghi nhật ký</b>.</td></tr>
+<tr><td><b>Báo điểm cho học sinh</b></td><td><i>Khi tôi công bố</i> (mặc định) · <i>Ngay sau khi nộp</i> · <i>Không báo (chỉ gửi email)</i>; cùng các ô chọn nội dung được xem: điểm, theo phần, chủ đề, từng câu, đáp án, lời giải, nhận xét (mặc định <b>đáp án và lời giải đang tắt</b>).</td></tr></table>
+<p>Giao xong, app hiện <b>mã vào thi</b>, <b>đường dẫn</b> (có nút <span class="ui">Sao chép</span>) và <b>mã QR</b> để chiếu lên màn hình lớp. Nếu có cảnh báo (thiếu hình trong kho, chưa mở được bài) thì hiện ngay dưới đó.</p>
+<figure class="shot">
+<img src="assets/img/shots/38-phong-thi-giao-bai.png" alt="Nhóm Giao bài mới với danh sách câu, cài đặt và nút Giao bài và mở" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Nhóm “📤 Giao bài mới”: danh sách câu đã tick, ô Tên/Thời gian/Thang điểm, các ô cài đặt trộn đề, chống rời màn hình, báo điểm, và nút “🚀 Giao bài &amp; mở”</b><code>assets/img/shots/38-phong-thi-giao-bai.png</code></div>
+<figcaption>Giao bài mới: chọn câu và cài đặt</figcaption>
+</figure>
+<figure class="shot">
+<img src="assets/img/shots/39-phong-thi-ma-qr.png" alt="Mã vào thi, đường dẫn và mã QR sau khi giao bài" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Khung “Đã giao bài” với mã vào thi, đường dẫn, nút Sao chép và mã QR (dùng bài thử, không phải kỳ thi thật)</b><code>assets/img/shots/39-phong-thi-ma-qr.png</code></div>
+<figcaption>Mã vào thi, đường dẫn và mã QR</figcaption>
+</figure>
+<div class="callout"><b class="t">Lưu ý khi chọn câu</b><ul style="margin:6px 0 6px 18px">
+<li><b>Chọn lẻ một câu của nhóm có đoạn dẫn</b> thì app vẫn giao đủ cả nhóm: tự thêm các câu còn thiếu, báo “Đã thêm N câu cùng nhóm” và xếp lại cho đúng thứ tự.</li>
+<li><b>Sửa ngân hàng sau khi giao không làm đổi bài đã giao</b>, vì bài được lưu dưới dạng bản chụp.</li>
+<li><b>Câu cũ chỉ có đáp án chữ, không có nội dung phương án</b> thì không giao online được; app nói rõ câu nào cần bổ sung.</li>
+<li>Nút <span class="ui">☁ Chỉ đưa câu đã chọn (hoặc cả ngân hàng) lên Phòng thi</span> chỉ đưa câu lên để bạn <b>chọn câu và soạn bài ngay trên trang giáo viên (web)</b>, chưa giao bài. Trang web chưa tự bổ sung câu còn thiếu của nhóm có đoạn dẫn: hãy tick đủ cả nhóm (hệ thống cảnh báo khi nhóm chỉ còn một câu).</li></ul></div>
+
+<h3 id="phong-thi-hoc-sinh">16.5 Học sinh làm bài</h3>
+<p>Gửi cho học sinh <b>đường dẫn</b> (hoặc cho quét mã QR). Học sinh <b>không cần tài khoản Google</b>.</p>
+<ol class="steps">
+<li>Mở đường dẫn. Mã bài thi đã được nhập sẵn. Nhập <b>mã học sinh / SBD</b> (và <b>PIN</b> nếu có) hoặc <b>họ tên và lớp</b>, có thể nhập email nếu muốn nhận kết quả → <span class="ui">Tiếp tục</span>.</li>
+<li>Đọc quy chế, tick <span class="ui">Tôi đã đọc và đồng ý</span>, bấm <span class="ui">Bắt đầu làm bài</span> (trình duyệt có thể xin vào toàn màn hình).</li>
+<li>Làm bài: Phần I chọn A–D (hoặc A–E), Phần II chọn Đúng/Sai từng ý, Phần III điền số (tối đa 4 ký tự, dùng dấu phẩy cho số thập phân, ví dụ <code>-1,5</code>).</li>
+<li>Bấm <span class="ui">Nộp bài</span>; hệ thống nhắc nếu còn câu chưa làm.</li></ol>
+<ul>
+<li><b>Xem đề tổng thể bất kỳ lúc nào</b>: lưới câu (đã làm, đang làm, đã đánh dấu), <span class="ui">📋 Tổng quan đề</span> (mọi câu cùng đáp án đã chọn, bấm để nhảy tới câu) và <span class="ui">📄 Xem toàn đề</span> (cuộn hết đề). Có thể <span class="ui">⚐ Đánh dấu xem lại</span> từng câu.</li>
+<li><b>Đồng hồ chạy theo giờ máy chủ</b>, nên đổi giờ trên máy không có tác dụng. Còn 5 phút đồng hồ chuyển vàng, còn 1 phút chuyển đỏ; hết giờ bài tự nộp.</li>
+<li><b>Tự lưu liên tục.</b> Mất mạng thì app giữ bài và thử lại. Nếu tải lại trang hoặc đổi máy, học sinh đăng nhập lại để <b>làm tiếp</b>; thời hạn không đổi.</li>
+<li>Câu thuộc nhóm có đoạn dẫn chung hiển thị kèm dòng “Sử dụng thông tin sau để trả lời các câu từ X đến Y”.</li>
+<li><b>Sau khi nộp</b>, học sinh thấy gì tuỳ chính sách bạn đặt: chỉ “đã ghi nhận”, hoặc điểm, theo phần, chủ đề, từng câu (kèm đáp án, lời giải, nhận xét nếu cho phép). Có thể xem lại bằng đường dẫn riêng ghi trong email kết quả.</li></ul>
+<figure class="shot">
+<img src="assets/img/shots/40-phong-thi-hoc-sinh.png" alt="Màn hình làm bài của học sinh trên điện thoại" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Màn hình làm bài của học sinh trên điện thoại: đồng hồ, câu hỏi có công thức, nút Câu trước/Câu sau, lưới câu; ảnh thứ hai là “📋 Tổng quan đề” (dùng bài thử, họ tên giả)</b><code>assets/img/shots/40-phong-thi-hoc-sinh.png</code></div>
+<figcaption>Học sinh làm bài trên điện thoại</figcaption>
+</figure>
+<div class="callout warn"><b class="t">Chống rời màn hình: làm được gì, không làm được gì</b>
+<table class="tbl"><tr><th>Làm được</th><th>Không làm được (trình duyệt không cho phép)</th></tr>
+<tr><td>Phát hiện chuyển tab/ứng dụng, mất tiêu điểm, thoát toàn màn hình; phủ kín đề bằng lớp cảnh báo (đồng hồ vẫn chạy).<br>Ghi mỗi lần rời <b>ngay lên máy chủ</b>; đủ N lần thì tự nộp.<br>Chặn sao chép, dán, chuột phải, in, lưu.<br>Mỗi em một tờ đề xáo khác nhau.</td><td>Khoá hệ điều hành; chặn chụp màn hình; chặn thiết bị thứ hai; chặn chia đôi màn hình.<br>Thiết bị không hỗ trợ toàn màn hình (iPhone) vẫn bị theo dõi chuyển tab nhưng không vào được toàn màn hình.</td></tr></table>
+<p>Vì vậy đây là <b>răn đe và bằng chứng</b>, không phải phòng thi khoá. Với thi quan trọng: có giám thị, đề ngắn, bật trộn đề và xem cột <b>Rời MH</b> khi chấm. Việc tải lại trang không bị tính là rời màn hình.</p></div>
+
+<h3 id="phong-thi-theo-doi">16.6 Theo dõi, quản lý bài đã giao</h3>
+<p>Nhóm <span class="ui">📋 Bài đã giao</span> liệt kê từng bài với <b>mã vào thi</b>, trạng thái (<i>Nháp</i> · <i>Đang mở</i> · <i>Đã đóng</i>), số câu, số thí sinh trong danh sách, số đang làm và số đã nộp. Các nút ở cuối mỗi dòng:</p>
+<table class="tbl"><tr><th>Nút</th><th>Chức năng</th></tr>
+<tr><td>📡 <b>Theo dõi</b></td><td>Xem số liệu và từng thí sinh: đang làm (đã trả lời bao nhiêu câu), đã nộp/tự nộp kèm điểm, <b>số lần rời màn hình</b>, chưa vào thi. Tự làm mới sau 10 giây. Có nút <span class="ui">+10′</span> cộng thời gian cho em đang làm và <span class="ui">Làm lại</span> cho phép em đó thi lại.</td></tr>
+<tr><td>📊 <b>Kết quả</b></td><td>Xem điểm, thống kê, nhận xét, gửi email (mục 16.7).</td></tr>
+<tr><td>👥 <b>Thí sinh</b></td><td>Xem danh sách kèm <b>PIN</b>; thêm hoặc cập nhật thí sinh bằng các dòng <code>Mã HS, Họ tên, Lớp, Email, PIN</code>.</td></tr>
+<tr><td>▶ / ⏹</td><td>Mở bài đang ở trạng thái Nháp / đóng bài đang mở.</td></tr>
+<tr><td>🔗</td><td>Lấy lại đường dẫn của bài.</td></tr>
+<tr><td>🗑</td><td>Xoá bài.</td></tr></table>
+<p>Bài đã có người làm vẫn <b>sửa được đáp án, điểm và lời giải</b> (không đổi tập câu); hệ thống tự <b>chấm lại</b> mọi bài. Trang giáo viên trên web (<span class="ui">🖥 Mở trang giáo viên (web)</span>) làm được các việc tương tự và dùng thuận tiện hơn trên máy tính.</p>
+<figure class="shot">
+<img src="assets/img/shots/41-phong-thi-theo-doi.png" alt="Bảng theo dõi thí sinh đang làm bài" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Nhóm “📋 Bài đã giao” và bảng “📡 Theo dõi”: số đang làm/đã nộp, cột Rời MH, nút +10′ và Làm lại (họ tên giả)</b><code>assets/img/shots/41-phong-thi-theo-doi.png</code></div>
+<figcaption>Theo dõi thí sinh khi đang thi</figcaption>
+</figure>
+
+<h3 id="phong-thi-ket-qua">16.7 Kết quả, nhận xét và gửi email</h3>
+<p>Bấm <span class="ui">📊</span> ở dòng bài thi:</p>
+<ul>
+<li><b>Số liệu:</b> số bài, điểm trung bình, trung vị, cao nhất, thấp nhất, tỉ lệ từ 5 điểm; chọn <span class="ui">Cả bài</span> hoặc từng <b>lớp</b>. Mở phần <i>Theo lớp · chủ đề · từng câu</i> để xem kết quả theo lớp, theo chủ đề và từng câu (% đúng, % bỏ trống; trên web có thêm độ phân biệt và lựa chọn nhiễu).</li>
+<li><b>Bảng điểm:</b> hạng, mã, họ tên, lớp, điểm, số lần rời màn hình, tình trạng gửi email; nút <span class="ui">Chi tiết</span> cho từng em (điểm theo câu, nhận xét).</li>
+<li><span class="ui">Công bố cho học sinh</span> / <span class="ui">Ẩn kết quả</span> (khi chọn báo điểm “khi tôi công bố”); <span class="ui">♻ Chấm lại</span>; <span class="ui">⬇ Xuất Excel</span> trong app (trên web xuất CSV).</li></ul>
+<p><b>Nhận xét</b> do hệ thống tạo <b>theo luật, không dùng AI</b>, ở ba mức: <i>tổng thể cả bài/lớp</i>, <i>từng học sinh</i> (xếp loại, so với trung bình, phần mạnh/yếu, chủ đề cần ôn) và <i>từng câu</i> (đúng/sai/đúng k ý/bỏ trống, kèm đáp án và lời giải nếu bạn cho phép). Bạn có thể viết đè ở cả ba mức và bấm <span class="ui">Về tự động</span> để quay lại nhận xét tự động.</p>
+<p><b>Gửi kết quả qua email:</b> tick nội dung muốn gửi (điểm, theo phần, chủ đề, từng câu, đáp án, lời giải, nhận xét, đường dẫn xem chi tiết), bấm <span class="ui">Xem số thư</span> để biết sẽ gửi bao nhiêu thư, rồi <span class="ui">✉ Gửi</span> cho cả bài, một lớp hoặc từng em. Hệ thống kiểm tra hạn mức trước khi gửi và báo lỗi theo từng thư.</p>
+<figure class="shot">
+<img src="assets/img/shots/42-phong-thi-ket-qua.png" alt="Bảng kết quả bài thi online với thống kê và nút gửi email" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Khung “📊 Kết quả”: thống kê, ô nhận xét tổng thể, hàng ô tick “Gửi email”, bảng điểm theo hạng (họ tên và email giả)</b><code>assets/img/shots/42-phong-thi-ket-qua.png</code></div>
+<figcaption>Kết quả, nhận xét và gửi email</figcaption>
+</figure>
+<div class="callout"><b class="t">Email có công thức dạng ảnh</b><ul style="margin:6px 0 6px 18px">
+<li>Tick <span class="ui">công thức dạng ảnh (dựng trên máy này)</span> để thư hiển thị công thức và hình thành <b>ảnh nhúng trong thư</b> thay vì mã LaTeX. Lần gửi đầu cho một bài có thể mất vài phút; các lần sau dùng lại ảnh đã tạo.</li>
+<li>Ảnh được dựng bằng trình duyệt của máy bạn: chạy tốt trên Chrome, Edge, Firefox và Android. <b>Safari/iOS có thể chặn</b>; khi đó hệ thống báo rõ và gửi phần đó dạng chữ (chưa thử trên thiết bị Apple thật).</li>
+<li>Thư chưa kèm <b>đoạn dẫn chung</b> của nhóm câu (đoạn dẫn chỉ hiện ở trang thi và trang xem kết quả).</li>
+<li><b>Hạn mức email của Google:</b> khoảng 100 thư/ngày với tài khoản thường, 1 500 thư/ngày với Google Workspace. Vượt hạn mức thì hệ thống từ chối gửi; học sinh vẫn xem được kết quả bằng đường dẫn hoặc khi bạn công bố.</li></ul></div>
+
+<h3 id="phong-thi-nhap-ky-thi">16.8 Nhập kết quả online vào kỳ thi trong app</h3>
+<p>Muốn bài làm online trở thành <b>bài đã chấm của một kỳ thi</b> trong app (cùng thống kê, xuất Excel và kết quả chung với bài quét bằng camera):</p>
+<ol class="steps">
+<li>Nhóm <span class="ui">📋 Bài đã giao</span> → <span class="ui">📊</span> ở bài cần nhập → <span class="ui">📥 Nhập vào kỳ thi trong App</span>. Nếu bài được giao từ một mã đề, kỳ thi và mã đề <b>được chọn sẵn</b>; nếu giao từ câu ngân hàng, hãy tự chọn kỳ thi và mã đề.</li>
+<li>Bấm <span class="ui">Xem trước</span> (chưa ghi gì): app cho biết số câu khớp, số bài sẵn sàng nhập, số em đã có bài trong app và số em chưa có trong kỳ thi.</li>
+<li>Nếu còn <b>câu online không khớp</b> câu nào của mã đề, việc nhập bị <b>chặn</b> (nhập sẽ cho điểm sai) và app liệt kê câu nào. Câu được khớp theo thứ tự: mã nội bộ của câu → mã câu → loại câu và nội dung (phải duy nhất).</li>
+<li>Em chưa có trong kỳ thi: bỏ qua, hoặc tick <b>Tạo thí sinh còn thiếu trong kỳ thi</b> (mã HS = SBD, giữ họ tên và lớp từ bài online).</li>
+<li>Bấm <span class="ui">📥 Nhập … bài</span>. Đáp án được quy về thứ tự gốc của từng câu dù mỗi em làm một tờ đề xáo khác nhau. Sau khi nhập, app so điểm vừa chấm với điểm online; <b>lệch hơn 0,005 thì cảnh báo</b> (thường do đáp án được sửa ở một phía).</li></ol>
+<ul>
+<li><b>Không nhập trùng:</b> em đã có bài trong app thì được bỏ qua, nên chạy lại an toàn.</li>
+<li><b>Mỗi bài nhập tính 1 lượt vào hạn mức quét</b> của giấy phép, như bài quét bằng camera. Kỳ thi đã khoá hoặc hết hạn mức thì app báo lỗi, không nhập một phần âm thầm.</li></ul>
+<figure class="shot">
+<img src="assets/img/shots/43-phong-thi-nhap-ky-thi.png" alt="Khung nhập kết quả online vào kỳ thi trong app" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Khung “📥 Nhập kết quả online vào kỳ thi trong App” sau khi bấm Xem trước: số câu khớp, số bài sẵn sàng và nút “📥 Nhập … bài”</b><code>assets/img/shots/43-phong-thi-nhap-ky-thi.png</code></div>
+<figcaption>Nhập kết quả online vào kỳ thi</figcaption>
+</figure>
+
+<h3 id="phong-thi-gioi-han">16.9 Dữ liệu, bảo mật và giới hạn</h3>
+<ul>
+<li><b>Dữ liệu nằm ở đâu:</b> ngân hàng đã đưa lên, bài thi (có đáp án), bài làm, họ tên, lớp, email, <b>PIN</b> và điểm nằm trong <b>Google Sheet và Drive của bạn</b>. PIN lưu dạng rõ trong Sheet để bạn phát lại cho học sinh, vì vậy hãy chỉ chia sẻ Sheet cho người tin cậy. Gói bài thi chứa đáp án nằm trong Drive, không có địa chỉ công khai; đáp án và lời giải <b>không</b> nằm trong dữ liệu gửi tới học sinh khi đang thi.</li>
+<li><b>Bảo vệ truy cập:</b> mọi thao tác của giáo viên cần khoá phòng thi (nhập sai nhiều lần bị khoá tạm); mỗi học sinh có phiên làm bài riêng; nhập sai PIN nhiều lần trong thời gian ngắn bị khoá tạm.</li>
+<li><b>Quá hạn:</b> bài nộp muộn chỉ tính phần đã tự lưu trước hạn; bài bỏ dở được hệ thống tự chốt.</li>
+<li><b>Số học sinh vào thi cùng lúc:</b> Google giới hạn số lượt chạy đồng thời của một tài khoản. Nên để <b>không quá khoảng 150 em vào thi cùng lúc</b>; lớp đông hãy <b>giãn giờ vào</b> thành vài đợt.</li>
+<li>Hình trong câu hỏi nên nhỏ hơn khoảng 1,5 MB mỗi hình. Mỗi bài thi nên có không quá khoảng 1 500 bài nộp để xem kết quả nhanh.</li>
+<li>Chưa kiểm chứng trên thiết bị Apple thật: toàn màn hình, ảnh công thức trong email. Hãy thử trước như đã nêu ở đầu mục.</li>
+<li>Giáo viên/nhà trường là bên kiểm soát dữ liệu học sinh trong Phòng thi: hãy thông báo cho học sinh/phụ huynh khi cần (xem <a href="privacy.html">Quyền riêng tư</a>).</li></ul>
+
+<h2 id="dong-bo"><span class="n">17</span>Tab Đồng bộ</h2>
+<p>Tab <span class="ui">🔄 Đồng bộ</span> hiển thị <b>bài đã chấm lưu trên máy (offline)</b>, nút <span class="ui">🗑️ Xoá dữ liệu test trên máy này</span> (dùng để dọn các bài thử) và <b>Nhật ký kỹ thuật</b> — khi gặp lỗi, bạn có thể sao chép nhật ký này gửi cho nhà phát triển kèm ảnh chụp màn hình.</p>
+<!-- TODO (tác giả): kiểm tra lại mô tả tab Đồng bộ với bản APK hiện hành; nếu nút “Đồng bộ ngay lên server” hiện ra trong app thì bổ sung ý nghĩa của nó tại đây. -->
+<p>Việc <b>sao lưu</b> dữ liệu sang nơi khác được làm ở mục Sao lưu Google Drive (xem tiếp).</p>
+
+<h2 id="drive"><span class="n">18</span>Sao lưu Google Drive (tuỳ chọn)</h2>
+<ol class="steps">
+<li>Bấm <span class="ui">⚙️</span> → <span class="ui">☁️ Sao lưu Google Drive cá nhân</span>.</li>
+<li>Bấm <span class="ui">Kết nối Google Drive</span> và đăng nhập tài khoản Google của bạn; đồng ý quyền truy cập.</li>
+<li>Bấm <span class="ui">Sao lưu ngay</span>. Tệp sao lưu được lưu trong <b>Google Drive của chính bạn</b>.</li>
+</ol>
+<p>ExamMark chỉ xin quyền truy cập <b>các tệp do chính ExamMark tạo</b> (phạm vi <code>drive.file</code>), không đọc được các tệp khác trong Drive. Nhà phát triển không có mã truy cập Drive của bạn. Xem thêm <a href="privacy.html">Quyền riêng tư</a>.</p>
+<figure class="shot">
+<img src="assets/img/shots/14-sao-luu-drive.png" alt="Mục sao lưu Google Drive cá nhân" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Chụp mục “Sao lưu Google Drive cá nhân” trong ⚙️ Cài đặt</b><code>assets/img/shots/14-sao-luu-drive.png</code></div>
+<figcaption>Mục sao lưu Google Drive cá nhân</figcaption>
+</figure>
+<div class="callout warn"><b class="t">Khuyến nghị</b><p>Dữ liệu chính nằm trên điện thoại: <b>gỡ app hoặc xoá dữ liệu ứng dụng sẽ làm mất dữ liệu chưa sao lưu</b>. Hãy sao lưu và xuất Excel sau mỗi kỳ thi, và trước khi đổi điện thoại.</p><p><b>Chưa nằm trong sao lưu Drive:</b> ngân hàng câu hỏi, kho hình và danh mục (mục <a href="#ngan-hang">6</a>), và dữ liệu của chế độ chấm tự luận (mục <a href="#tu-luan">15</a>). Hãy xuất Excel ngân hàng, hoặc dùng <i>Sao lưu</i> riêng của chế độ tự luận.</p></div>
+
+<h2 id="to-chuc"><span class="n">19</span>Tổ chức &amp; thành viên (license tổ chức)</h2>
+<p>Dành cho người quản trị của trường/tổ bộ môn, trong <span class="ui">⚙️ Cài đặt &amp; Đăng nhập</span>:</p>
+<ul>
+<li><span class="ui">➕ Thêm thành viên trực tiếp</span> (vào ngay, không cần duyệt) bằng email Google của đồng nghiệp; <span class="ui">Khóa</span>/<span class="ui">Mở khóa</span> và <span class="ui">Mời</span> từng thành viên trong bảng thành viên.</li>
+<li><b>Hạn mức thiết bị:</b> tổng số “chỗ” do gói/nhà phát triển đặt. Ô <i>mặc định</i> đặt số máy tối đa <b>mỗi thành viên</b> (0 = không giới hạn riêng); cột <i>Máy / tối đa</i> trong bảng thành viên cho phép đặt riêng từng người; bấm <span class="ui">Lưu hạn mức thiết bị</span>. Mọi hạn mức đều bị giới hạn bởi tổng của license.</li>
+<li><b>Quy tắc “giữ chỗ”:</b> chỗ của license = thiết bị đang hoạt động + chỗ đang được giữ. Khi một thiết bị bị gỡ hoặc một thành viên bị xoá khỏi danh sách, chỗ đó được <b>giữ cho đúng tài khoản ấy</b> trong một thời gian (mặc định <b>30 ngày</b>) rồi tự trả; trong thời gian giữ, chính tài khoản đó đổi máy hoặc được thêm lại sẽ dùng lại chỗ ngay, còn người khác chưa chiếm được. App hiển thị “đã dùng a + h / M chỗ”, danh sách chỗ đang giữ và ngày hết hạn giữ.</li>
+<li><b>Gỡ thiết bị:</b> quản trị tổ chức chỉ <b>xem</b> danh sách thiết bị; việc gỡ thiết bị đã kích hoạt (máy cũ, mất máy) do <b>nhà phát triển</b> thực hiện — liên hệ qua <span class="ui">📩 Gửi yêu cầu hỗ trợ</span> hoặc email.</li>
+<li><b>Bài cần review</b> của giáo viên nay được xem ở tab <span class="ui">👥 Nhóm</span> (nút <span class="ui">Mở tab Nhóm</span> trong khung quản trị) — xem <a href="#ky-thi-nhom">mục 14</a>.</li>
+<li><span class="ui">📖 Hướng dẫn &amp; hỗ trợ</span>: <span class="ui">📖 Hướng dẫn trực tuyến</span> mở trang hướng dẫn (khi license có cấu hình địa chỉ), và <span class="ui">📩 Gửi yêu cầu hỗ trợ</span> gửi thắc mắc/báo lỗi tới quản trị hệ thống; bấm <i>Xem yêu cầu của tôi</i> để xem phản hồi. Nội dung gửi chỉ gồm những gì bạn nhập, <b>không</b> kèm dữ liệu kỳ thi.</li>
+</ul>
+<p>Nếu tài khoản của bạn <i>không thuộc trường/nhóm nào</i> thì không có chức năng quản lý thành viên. Muốn dùng chung với đồng nghiệp: tạo trường/nhóm mới ở mục <i>Tạo trường/nhóm mới</i> rồi mời đồng nghiệp vào bằng mã mời.</p>
+<figure class="shot">
+<img src="assets/img/shots/15-quan-ly-to-chuc.png" alt="Quản lý tổ chức trong Cài đặt" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+<div class="ph-box"><span>Chỗ chèn ảnh chụp màn hình</span><b>Chụp phần quản lý tổ chức: bảng thành viên (cột “Máy / tối đa”), dòng “đã dùng … chỗ thiết bị … đang giữ chỗ”, ô hạn mức thiết bị và nút “Lưu hạn mức thiết bị”</b><code>assets/img/shots/15-quan-ly-to-chuc.png</code></div>
+<figcaption>Quản lý tổ chức trong Cài đặt</figcaption>
+</figure>
+
+<h2 id="test"><span class="n">20</span>Thử nhanh bằng phiếu mô phỏng</h2>
+<p>Chưa có phiếu thật để thử? Tab <span class="ui">Soạn đề</span> → <span class="ui">🧪 Sinh ngẫu nhiên bài test</span> → <span class="ui">🧪 Sinh phiếu ngẫu nhiên (PDF + CSV đáp án chuẩn)</span>:</p>
+<ul>
+<li>App sinh các phiếu <b>đã tô sẵn</b> như học sinh thật (đúng, sai, bỏ trống, tô mờ, tô 2 đáp án xen kẽ) — có thể gán SBD theo đúng thí sinh trong danh sách.</li>
+<li>Xuất ra <b>PDF</b> (mỗi phiếu một trang) kèm <b>CSV đáp án chuẩn</b> để đối chiếu xem điểm máy chấm có đúng không.</li>
+<li>In ra (hoặc hiển thị trên màn hình khác) rồi chụp bằng chức năng Chấm bài để làm quen toàn bộ luồng. Điểm in trên phiếu là <b>điểm tạm tính</b> (ô chưa xác định tính sai).</li>
+<li>Xong nhớ bấm <span class="ui">🗑️ Xoá dữ liệu test trên máy này</span> ở tab Đồng bộ.</li>
+</ul>
+<p><b>Phiếu mô phỏng chỉ để thử, không dùng cho thi thật.</b></p>
+
+<h2 id="meo-chup"><span class="n">21</span>Mẹo chụp cho chấm chính xác</h2>
+<table class="tbl"><tr><th>Nên</th><th>Tránh</th></tr>
+<tr><td>Đặt phiếu phẳng trên mặt bàn tối màu, đủ sáng, ánh sáng đều</td><td>Chụp khi phiếu cong, nhàu hoặc đang cầm trên tay</td></tr>
+<tr><td>Giữ điện thoại song song với tờ giấy, thấy trọn <b>cả 4 ô vuông góc</b></td><td>Chụp nghiêng nhiều, cắt mất một góc</td></tr>
+<tr><td>Dùng ánh sáng gián tiếp (đèn trần, cửa sổ)</td><td>Bóng tay/điện thoại đổ lên phiếu; đèn flash gây chói loá</td></tr>
+<tr><td>Chờ ảnh nét rồi mới chụp; lau ống kính</td><td>Ảnh rung, mờ</td></tr>
+<tr><td>Kiểm tra mục “Kết quả nhận dạng” trước khi xác nhận</td><td>Bấm xác nhận liên tục mà không nhìn các câu gắn cờ</td></tr></table>
+
+<h2 id="su-co"><span class="n">22</span>Xử lý sự cố</h2>
+<table class="tbl"><tr><th>Hiện tượng</th><th>Cách xử lý</th></tr>
+<tr><td>Không cài được APK / bị chặn</td><td>Cho phép “Cài ứng dụng không rõ nguồn” cho trình duyệt/ứng dụng Tệp; nếu Play Protect cảnh báo, chọn “Vẫn cài đặt” khi bạn tải từ nguồn chính thức. Kiểm tra mã SHA-256 nếu nghi ngờ tệp lỗi.</td></tr>
+<tr><td>Màn hình báo “Tải quá lâu (&gt;25s)”</td><td>Kiểm tra Internet, đóng và mở lại app. Nếu vẫn vậy, gửi ảnh chụp màn hình cho nhà phát triển.</td></tr>
+<tr><td>Không kích hoạt được</td><td>Kiểm tra kết nối mạng, nhập lại mã license không thừa khoảng trắng; mã đã hết hạn hoặc đủ số thiết bị thì liên hệ quản trị/nhà phát triển (lưu ý: chỗ của tài khoản vừa bị gỡ được giữ một thời gian, xem <a href="#to-chuc">mục 19</a>).</td></tr>
+<tr><td>App yêu cầu kết nối mạng để tiếp tục quét/chấm</td><td>Đã quá lâu chưa xác thực license. Bật Internet một lần để app làm mới license.</td></tr>
+<tr><td>Chờ lâu ở tab Chấm bài lần đầu</td><td>Thư viện xử lý ảnh đang tải (10–30 giây). Chờ hết thông báo rồi chụp.</td></tr>
+<tr><td>Không nhận được 4 góc / kết quả lệch</td><td>Chụp lại theo <a href="#meo-chup">mục 21</a>: phẳng, đủ 4 ô vuông, đủ sáng. Kiểm tra bản in đã đúng 100% chưa.</td></tr>
+<tr><td>“Không xác định được đúng mã đề”</td><td>Thí sinh tô thiếu/sai mã đề hoặc mã đề chưa khai báo trong kỳ thi. Chọn đúng mã đề ở danh sách rồi bấm Áp dụng.</td></tr>
+<tr><td>Cảnh báo SBD không khớp mã QR</td><td>Đối chiếu tên và ảnh phiếu với thí sinh; có thể phiếu bị tráo hoặc SBD bị tô mờ.</td></tr>
+<tr><td>Phần III đúng nhưng không được điểm</td><td>Kiểm tra đáp án trong khoá: phải là số, tối đa 4 ký tự. Gõ <code>0.67</code> hay <code>0,67</code> đều được, nhưng không dùng chữ hay khoảng trắng giữa số.</td></tr>
+<tr><td>Nạp Excel ngân hàng câu hỏi báo lỗi dòng nào đó</td><td>Mở bảng xem trước sau <span class="ui">🔍 Đọc &amp; kiểm tra</span>: lỗi nêu đúng số dòng Excel và lý do. Sửa trong Excel rồi nạp lại. Câu lỗi bị bỏ qua; thiếu hình chỉ là cảnh báo.</td></tr>
+<tr><td>Câu hỏi nạp vào bị “bỏ qua”</td><td>Có thể câu <b>trùng nội dung</b> với câu đã lưu (bỏ dấu tick <i>Bỏ qua câu trùng nội dung</i> nếu muốn lưu), hoặc <code>Ma_cau</code> đã tồn tại (câu sẽ được cập nhật chứ không tạo mới).</td></tr>
+<tr><td>Báo lỗi mã câu khi nhập mã tay</td><td>Mã phải đúng dạng <code>MON.LOP.CD.PHAN.MUC.STT</code>, khớp phân loại của câu và không trùng mã khác. Dùng mã tự động để tránh lỗi (mục <a href="#ngan-hang">6.2</a>).</td></tr>
+<tr><td>Trộn đề cảnh báo một số câu không đảo phương án</td><td>Câu có phương án phụ thuộc vị trí (“Cả A và B…”, “Tất cả…”) hoặc chưa lưu nội dung phương án được giữ nguyên; chỉ thứ tự câu đổi. Xem <a href="#tron-de">mục 7.2</a>.</td></tr>
+<tr><td>Tab Nhóm báo “Tổ chức của bạn chưa cấu hình Group Hub”</td><td>Quản trị nhóm chưa thiết lập Hub (mục <a href="#ky-thi-nhom">14.2a</a>). Chỉ tài khoản quản trị mới thấy ô nhập địa chỉ Hub.</td></tr>
+<tr><td>Kỳ thi nhóm: “Đề đã được cập nhật”</td><td>Bấm <span class="ui">⬇️ Tải đề mới</span> rồi chấm lại; kết quả chấm bằng đề cũ không gửi được.</td></tr>
+<tr><td>Kỳ thi nhóm: kết quả chưa gửi được</td><td>Xem dòng “⏳ … kết quả chờ gửi”; bật mạng rồi bấm <span class="ui">🔄 Làm mới</span>. Kết quả được giữ lại và tự gửi khi có mạng.</td></tr>
+<tr><td>Quản trị nhóm không chốt được kỳ thi</td><td>Chỉ chốt được khi mọi bài đã nộp đều được duyệt. Mở <span class="ui">📋 Kết quả</span> để xem bài nào còn chờ duyệt hoặc cần chấm lại.</td></tr>
+<tr><td>Chế độ tự luận: nút chấm bị mờ / báo thiếu quyền</td><td>License có thể chưa có quyền tự luận hoặc đã hết hạn. Kết nối mạng để làm mới license; nếu vẫn thế, liên hệ nhà phát triển. Xem/xuất/xoá dữ liệu vẫn dùng được.</td></tr>
+<tr><td>Chế độ tự luận: “Chưa nhập khoá API”, lỗi sai khoá/hết tiền/sai tên mô hình</td><td>Vào <span class="ui">⚙️ Cài đặt</span> của chế độ tự luận: nhập khoá, <span class="ui">Lấy danh sách mô hình</span> để chọn đúng tên, rồi <span class="ui">Kiểm tra kết nối</span>. Hết tiền thì nạp thêm ở nhà cung cấp AI.</td></tr>
+<tr><td>Chế độ tự luận: báo máy chủ AI quá tải (503/529)</td><td>Lỗi phía nhà cung cấp, không phải mạng của bạn. App tự thử lại và có thể chuyển sang mô hình dự phòng; bài còn lỗi thì chấm lại sau.</td></tr>
+<tr><td>Chế độ tự luận: ảnh không tự ghép vào thí sinh</td><td>Tên tệp cần có SBD là một cụm số nguyên vẹn (ví dụ <code>SBD_002_p1.jpg</code>). Ảnh chưa ghép nằm ở <b>Bài chưa gán</b> — gán tay.</td></tr>
+<tr><td>Chế độ tự luận: biểu ngữ đỏ “Bộ nhớ đầy”</td><td>Dữ liệu mới chưa được lưu. Sao lưu (⚙️ Cài đặt ▸ Sao lưu), xoá bớt kỳ thi/ảnh cũ rồi tiếp tục.</td></tr>
+<tr><td>Không thấy ô chọn chế độ Trắc nghiệm/Tự luận/Phòng thi</td><td>Tab Chấm bài ẩn tiêu đề để rộng chỗ camera. Chuyển sang tab khác hoặc mở ⚙️ Cài đặt.</td></tr>
+<tr><td>Phòng thi: “Chưa nạp được module Phòng thi”</td><td>Đăng nhập/kích hoạt ở <span class="ui">⚙️ Cài đặt</span> rồi tải lại trang (hoặc đóng và mở lại app).</td></tr>
+<tr><td>Phòng thi: Google Sheet không có menu 🌐 ExamRoom</td><td>Chờ vài giây rồi tải lại trang. Hãy mở đúng <b>bản sao</b> bạn vừa tạo từ liên kết “Tạo bản sao” của nhà phát triển. Nếu vẫn không có menu, gửi ảnh chụp màn hình cho nhà phát triển.</td></tr>
+<tr><td>Phòng thi: menu ④ Triển khai báo lỗi</td><td>Đọc dòng “Chi tiết kỹ thuật” trong thông báo (nêu nguyên nhân: chưa bật Apps Script API, Workspace của trường chặn, thiếu quyền…). Nếu không khắc phục được, <b>triển khai tay</b> rồi dùng <b>④b Dán địa chỉ</b> (mục <a href="#phong-thi-cai-dat">16.2</a>).</td></tr>
+<tr><td>Phòng thi: học sinh mở link lại thấy trang đăng nhập Google</td><td>Bản triển khai phải đặt <i>Thực thi dưới danh nghĩa: Tôi</i> và <i>Ai có quyền truy cập: Bất kỳ ai</i>. Chạy lại menu <b>④ Triển khai</b> (menu tự kiểm tra thiết lập này) hoặc sửa bản triển khai tay.</td></tr>
+<tr><td>Phòng thi: app báo sai khoá hoặc không kết nối được</td><td>Lấy lại địa chỉ và khoá bằng menu <b>⑤ Xem địa chỉ + khoá</b>. Nếu bạn vừa đổi khoá ở menu ②, phải nhập khoá mới ở app và trang giáo viên.</td></tr>
+<tr><td>Phòng thi: học sinh báo “Mã học sinh không có trong danh sách” hoặc “Mã PIN không đúng”</td><td>Xem mã và PIN ở nút <span class="ui">👥</span> của bài. Nhập sai PIN nhiều lần liên tiếp sẽ bị khoá tạm vài phút. Có thể đổi sang cách vào “Mở: nhập họ tên + lớp”.</td></tr>
+<tr><td>Phòng thi: gửi email báo vượt hạn mức hoặc lỗi từng thư</td><td>Google giới hạn khoảng 100 thư/ngày (tài khoản thường) hoặc 1 500 thư/ngày (Workspace). Gửi tiếp ngày hôm sau; học sinh vẫn xem được kết quả bằng đường dẫn hoặc khi bạn công bố.</td></tr>
+<tr><td>Phòng thi: “Nhập vào kỳ thi” bị chặn vì câu không khớp</td><td>Câu online không tìm được câu tương ứng trong mã đề đích. Chọn đúng kỳ thi/mã đề (nên giao bài từ mã đề để được chọn sẵn), hoặc sửa mã đề cho khớp rồi xem trước lại. Không ép nhập vì điểm sẽ sai.</td></tr>
+<tr><td>Đăng nhập Google/Drive lỗi</td><td>Kiểm tra mạng, thử đăng xuất rồi đăng nhập lại, đảm bảo đã chọn đúng tài khoản Google. Nếu lỗi vẫn còn, gửi ảnh chụp màn hình cho nhà phát triển.</td></tr>
+<tr><td>Nghi ngờ lỗi của app</td><td>Chụp màn hình, sao chép <b>Nhật ký kỹ thuật</b> (tab Đồng bộ), gửi về <a href="mailto:phanchienmdc@gmail.com">phanchienmdc@gmail.com</a>.</td></tr></table>
+
+<h2 id="faq"><span class="n">23</span>Câu hỏi thường gặp</h2>
+<details><summary>Dữ liệu của tôi nằm ở đâu? Nhà phát triển có xem được không?</summary><p>Kỳ thi, danh sách thí sinh, bài làm và kết quả nằm trong điện thoại của bạn. Nhà phát triển không nhận được dữ liệu này. Máy chủ bản quyền chỉ lưu thông tin license và thiết bị. Hai trường hợp có dữ liệu rời khỏi máy: <b>kỳ thi nhóm</b> (đề và kết quả nằm trong Drive/Sheet của <i>quản trị nhóm</i>, không có ảnh) và <b>chấm tự luận</b> (ảnh/đề gửi tới nhà cung cấp AI bạn chọn). Chi tiết ở <a href="privacy.html">Quyền riêng tư</a>.</p></details>
+<details><summary>Tôi gỡ app thì có mất dữ liệu không?</summary><p>Có, nếu chưa sao lưu hoặc xuất ra tệp. Hãy dùng sao lưu Google Drive và xuất Excel/CSV sau mỗi kỳ thi.</p></details>
+<details><summary>Dùng được trên mấy điện thoại?</summary><p>Số thiết bị phụ thuộc gói license (gói dùng thử mặc định chỉ 1 thiết bị). Với license tổ chức, mỗi thành viên có hạn mức thiết bị riêng do quản trị tổ chức phân bổ trong phạm vi tổng của license; muốn gỡ thiết bị cũ, liên hệ nhà phát triển (xem <a href="#to-chuc">mục 19</a>).</p></details>
+<details><summary>Có chạy trên iPhone không?</summary><p>Hiện chỉ có bản Android (APK) (Phiên bản dành cho IOS/iPhone sẽ cập nhật sau).</p></details>
+<details><summary>Tôi có thể tự thiết kế phiếu khác không?</summary><p>Bạn tạo được mẫu theo số câu, khổ giấy, số phương án, số chữ số SBD/mã đề (tuỳ gói license). Bố cục từng khung do app quyết định để bảo đảm chấm chính xác.</p></details>
+<details><summary>Điểm máy chấm có thể sai không?</summary><p>Có thể, nhất là với ô tô nhạt, tô đôi hoặc ảnh kém. Vì vậy app luôn gắn cờ “Xem lại” cho tình huống không chắc chắn. Giáo viên cần kiểm tra các câu này trước khi công bố điểm.</p></details>
+<details><summary>Có nhập câu hỏi từ file Word/PDF vào ngân hàng được không?</summary><p>Chưa. Ngân hàng nhận Excel/CSV (kèm hình hoặc .zip). Công thức trong Word cần viết lại bằng LaTeX trong <code>$...$</code>, hình lưu thành tệp riêng. Xem <a href="#ngan-hang">mục 6</a>.</p></details>
+<details><summary>Mã đề sau khi trộn có chấm được ngay không?</summary><p>Có. Sau <span class="ui">💾 Lưu các mã đề vào kỳ thi</span>, các mã mới được ghi kèm đáp án đã trộn nên máy chấm nhận ngay. Chỉ cần mã đề vừa với số cột mã đề trên mẫu phiếu. Xem <a href="#tron-de">mục 7</a>.</p></details>
+<details><summary>Kỳ thi nhóm: quản trị hệ thống/nhà phát triển có xem được kết quả của nhóm tôi không?</summary><p>Không. Dữ liệu nằm trong Group Hub do chính quản trị nhóm sở hữu; ảnh bài làm không được gửi lên. Nhà phát triển chỉ cấp license và hỗ trợ kỹ thuật. Xem <a href="#ky-thi-nhom">mục 14</a>.</p></details>
+<details><summary>Chấm tự luận bằng AI có chính xác không? Có tốn tiền không?</summary><p>AI chỉ <b>đề xuất</b> điểm; giáo viên xem bản chép, sửa điểm và duyệt. Chữ khó đọc hoặc công thức phức tạp có thể làm AI sai nên cần kiểm tra. Chi phí gọi AI do nhà cung cấp (Gemini/OpenAI/Claude) tính trên <b>khoá API của bạn</b>, không thuộc license ExamMark. Chức năng đang ở giai đoạn thử nghiệm. Xem <a href="#tu-luan">mục 15</a>.</p></details>
+<details><summary>Chấm tự luận có gửi bài của học sinh lên mạng không?</summary><p>Có, khi bạn bấm chấm: ảnh bài làm và đề/đáp án/barem được gửi thẳng từ máy bạn tới nhà cung cấp AI đã chọn (không qua máy chủ của ExamMark). Hãy cân nhắc quy định bảo vệ dữ liệu của trường. Chỉ chọn <i>Chấm trắc nghiệm</i> thì ảnh phiếu không rời khỏi máy.</p></details>
+<details><summary>Giao bài online: học sinh có cần tài khoản Google không?</summary><p>Không. Học sinh chỉ cần đường dẫn (hoặc mã QR) và mã học sinh + PIN, hoặc họ tên + lớp tuỳ cách bạn chọn. Chỉ giáo viên cần tài khoản Google để tạo Phòng thi của mình.</p></details>
+<details><summary>Giao bài online: dữ liệu bài làm nằm ở đâu? Nhà phát triển có xem được không?</summary><p>Nằm trong Google Sheet và Drive của chính bạn, trong Phòng thi do bạn tự triển khai với khoá riêng. Nhà phát triển ExamMark không nhận được bài làm, họ tên hay điểm. Hãy chỉ chia sẻ quyền sửa Sheet cho người tin cậy, vì người sửa được Sheet xem được khoá và PIN.</p></details>
+<details><summary>Giao bài online có chống gian lận được không?</summary><p>Chỉ ở mức răn đe và ghi bằng chứng: phát hiện rời màn hình, tự nộp sau số lần cho phép, trộn đề riêng cho từng em. Không chặn được chụp màn hình hay thiết bị thứ hai. Thi quan trọng nên có giám thị (xem <a href="#phong-thi-hoc-sinh">mục 16.5</a>).</p></details>
+<details><summary>Giao bài online có tốn phí không? Tối đa bao nhiêu học sinh?</summary><p>Phòng thi chạy trên dịch vụ miễn phí của Google nên không có máy chủ riêng để trả phí, nhưng chịu hạn mức của Google (đồng thời, email mỗi ngày). Nên để không quá khoảng 150 em vào thi cùng lúc và giãn giờ vào với lớp đông (xem <a href="#phong-thi-gioi-han">mục 16.9</a>). Nhập kết quả online vào kỳ thi trong app tính 1 lượt quét cho mỗi bài theo giấy phép của bạn.</p></details>
+<p style="margin-top:28px">Không tìm thấy câu trả lời? Gửi email cho <a href="mailto:phanchienmdc@gmail.com">phanchienmdc@gmail.com</a> kèm ảnh chụp màn hình.</p>
+</article>
+</div>
+
+</div></main>
+<footer class="bot"><div class="wrap">
+<div>© 2026 Phan Thế Chiến. ExamMark là công cụ hỗ trợ chấm thi trắc nghiệm; kết quả cần được giáo viên kiểm tra.</div>
+<div>Liên hệ: <a href="mailto:phanchienmdc@gmail.com">phanchienmdc@gmail.com</a> · <a href="privacy.html">Chính sách quyền riêng tư</a> . (Điện thoại/Zalo: 098 908 1315)</div>
+</div></footer>
+</body>
+</html>
